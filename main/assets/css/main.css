@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
+	@font-face {
+    font-family: 'Resphekt'; /*a name to be used later*/
+    src: url('../fonts/Resphekt.ttf'); /*URL to font*/
+}
+
 /*
 	Dopetrope by HTML5 UP
 	html5up.net | @n33co
@@ -1067,11 +1072,13 @@
 	}
 
 /* Basic */
-
+	head {
+			font-family: 'Open Sans';
+	}
 	body {
 		background: #252122;
 		background-image: url("images/bg02.png");
-		font-family: 'Source Sans Pro';
+		font-family: 'Open Sans', serif;
 		font-weight: 300;
 		color: #5d5d5d;
 	}
@@ -1776,7 +1783,6 @@
 		border-bottom: solid 1px #ccc;
 		background-position: center; 
 	}
-
 	#main-wrapper {
 		position: relative;
 		background: #f7f7f7 url("images/bg02.png");
@@ -1852,6 +1858,16 @@
 			margin: 0;
 		}
 
+/* Basic color scheme */
+
+	#header h1 {
+		font-family: 'Resphekt';
+		color: #689F38;
+		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+							 0px 8px 13px rgba(0,0,0,0.1),
+							 0px 18px 23px rgba(0,0,0,0.1);
+							 
+	}
 /* Desktop */
 
 	@media screen and (min-width: 737px) {
@@ -1998,10 +2014,9 @@
 			}
 
 				#header h1 {
-					color: #252122;
 					font-weight: 900;
-					font-size: 2.5em;
-					letter-spacing: -0.035em;
+					font-size: 90px;
+					letter-spacing: 2px;
 					margin: 0 0 1em 0;
 				}
 
@@ -2034,6 +2049,9 @@
 						-ms-transition: background-color .25s ease-in-out;
 						transition: background-color .25s ease-in-out;
 						outline: 0;
+						text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+						0px 8px 13px rgba(0,0,0,0.1),
+						0px 18px 23px rgba(0,0,0,0.1);
 					}
 
 					#nav > ul > li:hover > a, #nav > ul > li.active > a {
@@ -2595,10 +2613,10 @@
 			}
 
 				#header h1 {
-					color: #252122;
 					font-weight: 900;
-					font-size: 1.75em;
-					letter-spacing: -0.035em;
+					font-size: 55px;
+					letter-spacing: 2px;
+					
 				}
 
 		/* Nav */
@@ -2799,4 +2817,3 @@ ul#field.input-list li {
 .registration {
 
 }
-	
