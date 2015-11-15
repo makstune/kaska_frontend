@@ -11,29 +11,27 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="no-sidebar">
-	
 	<p hidden>right-sidebar.html</p>
-	
 		<div id="page-wrapper">
-
 			<!-- Header -->
 				<div id="header-wrapper">
 					<div id="header">
 
 						<!-- Logo -->
-						<h1><a href="#">Kaska 2015</a></h1>
+						<h1>
+							<a href="#">Каска 2015</a>
+						</h1>
 						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li><a href="#">Главная</a></li>
-									<li><a href="#">Медиа</a></li>
-									<li><a href="#">Турнирная сетка</a></li>
-									<li><a href="#">Игроки</a></li>
-									<li><a href="#">Команды</a></li>
-									<li><a href="#">Информация</a></li>
-								</ul>
-							</nav>
-
+						<nav id="nav">
+							<ul>
+								<li><a href="#">Главная</a></li>
+								<li><a href="#">Медиа</a></li>
+								<li><a href="#">Турнирная сетка</a></li>
+								<li><a href="#">Игроки</a></li>
+								<li><a href="#">Команды</a></li>
+								<li><a href="#">Информация</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
 
@@ -45,7 +43,7 @@
 					<!-- Content -->
 						<article class="box post">
 							<header>
-								<h2 style="text-align: center;">Ты новенький? Добро пожаловать на Каску</h2>
+								<h2 style="text-align: center;">Ты новенький? Добро пожаловать на Каску!</h2>
 							</header>
 					
 							<form>
@@ -56,15 +54,20 @@
 										<input type="text" placeholder="Фамилия" style="width:50%; float:right;"/>
 										<input type="text" name="education" placeholder="ВУЗ/Коледж/Школа"/>
 										<input type="text" name="vk_link" placeholder="Ссылка на страницу ВКонтакте"/>
-										<label for="stud_scan">Фото студенческого билета</label>
-										<input type="file" name="stud_scan" id="stud_scan" />
-										<label for="tshirt_size">Размер футболки</label>
-										<select name="tshirt_size" id="tshirt_size" style="width: 60px;">
-											<option value="s">S</option>
-											<option value="m">M</option>
-											<option value="l">L</option>
-											<option value="xl">XL</option>
-										</select>
+										<div class="formrow">
+											<label for="stud_scan" style="width:45%;  float:left;">Фото студенческого билета</label>
+											<input type="file" name="stud_scan" id="stud_scan" style="width:50%; float:right;"/> 
+										</div>
+										<div class="formrow">
+											<label for="tshirt_size" style="width:45%; float:left;">Размер футболки</label>
+											<select name="tshirt_size" id="tshirt_size" style="width:auto; padding: 0;">
+													<option value="xs">XS</option>
+													<option value="s">S</option>
+													<option value="m">M</option>
+													<option value="l">L</option>
+													<option value="xl">XL</option>
+											</select>
+										</div>
 									</div>
 									
 									<div class="rightColumn">
@@ -88,7 +91,8 @@
 											<option value="5">пять лет</option>
 											<option value="6">более пяти лет</option>
 										</select>
-							
+										
+										<br>
 										<label for="fav_position">На поле во время игры я предпочитаю</label>
 										<select  name="fav_position" id="fav_position">
 											<option value="handler">быть хэндлером</option>
@@ -96,7 +100,8 @@
 											<option value="long">быть лонгом</option>
 											<option value="brovka">стоять на бровке</option>
 										</select>
-						
+										
+										<br>
 										<label for="fav_throw">Мой любимый бросок определенно</label>
 										<select name="fav_throw" id="fav_throw">
 											<option value="forehand">форхэнд</option>
@@ -106,6 +111,7 @@
 											<option value="out">в аут</option>
 										</select>
 							
+										<br>
 										<label for="fav_style">Мой стиль игры можно описать одним словом - </label>
 										<select name="fav_style" id="fav_style">
 											<option value="unstopable">неудержимый</option>
@@ -116,9 +122,10 @@
 										</select>
 									</div>
 								</div>
-								<input type="submit" value="registration_data" />
+								<input type="submit" value="Присоединиться" />
 							</form>
 						</article>
+
 					</div>
 				</div>
 				
