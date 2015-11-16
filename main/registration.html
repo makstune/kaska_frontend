@@ -3,129 +3,165 @@
 	<head>
 		<title>Kaska 2015</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
 	</head>
 	<body class="no-sidebar">
+	
 	<p hidden>right-sidebar.html</p>
+	
 		<div id="page-wrapper">
+
 			<!-- Header -->
 				<div id="header-wrapper">
 					<div id="header">
 
 						<!-- Logo -->
-						<h1>
-							<a href="#">Каска 2015</a>
-						</h1>
+						<h1 class="ribbon"><a href="#">Каска 2015</a></h1>
 						<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#">Главная</a></li>
-								<li><a href="#">Медиа</a></li>
-								<li><a href="#">Турнирная сетка</a></li>
-								<li><a href="#">Игроки</a></li>
-								<li><a href="#">Команды</a></li>
-								<li><a href="#">Информация</a></li>
-							</ul>
-						</nav>
+							<nav id="nav">
+								<ul>
+									<li><a href="#">Главная</a></li>
+									<li><a href="#">Медиа</a></li>
+									<li><a href="#">Турнирная сетка</a></li>
+									<li><a href="#">Игроки</a></li>
+									<li><a href="#">Команды</a></li>
+									<li><a href="#">Информация</a></li>
+								</ul>
+							</nav>
+
 					</div>
 				</div>
 
 			<!-- Main -->
 				<div id="main-wrapper">
-					<div class="container">
-
-							
+					<div class="containerold">
 					<!-- Content -->
 						<article class="box post">
 							<header>
-								<h2 style="text-align: center;">Ты новенький? Добро пожаловать на Каску!</h2>
+								<h2 style="text-align: center; margin-bottom: 40px;">Ты новенький? Добро пожаловать на Каску!</h2>
 							</header>
-					
-							<form>
-								<div class="columnsContainer">
-									<div class="leftColumn">
-										<h3 style="margin-bottom: 10px;">Немного о тебе</h3>
-										<input type="text" placeholder="Имя" style="width:45%;  float:left;"/>
-										<input type="text" placeholder="Фамилия" style="width:50%; float:right;"/>
-										<input type="text" name="education" placeholder="ВУЗ/Коледж/Школа"/>
-										<input type="text" name="vk_link" placeholder="Ссылка на страницу ВКонтакте"/>
-										<div class="formrow">
-											<label for="stud_scan" style="width:45%;  float:left;">Фото студенческого билета</label>
-											<input type="file" name="stud_scan" id="stud_scan" style="width:50%; float:right;"/> 
-										</div>
-										<div class="formrow">
-											<label for="tshirt_size" style="width:45%; float:left;">Размер футболки</label>
-											<select name="tshirt_size" id="tshirt_size" style="width:auto; padding: 0;">
-													<option value="xs">XS</option>
-													<option value="s">S</option>
-													<option value="m">M</option>
-													<option value="l">L</option>
-													<option value="xl">XL</option>
-											</select>
-										</div>
-									</div>
-									
-									<div class="rightColumn">
-										<h3 style="margin-bottom: 10px">Пара формальностей</h3>
-										<input type="email" name="email" placeholder="Электронный ящик"/>
-										<input type="tel" name="telephone" placeholder="Номер телефона"/>
-										<input type="password" name="password" placeholder="Пароль"/>
-										<input type="password" name="password_again" placeholder="Пароль еще раз"/>
-									</div>
-									<div class="centralColumn">
-										<h3>Нам необходимо знать твой опыт игры, чтобы турнир получил интересным</h3>
-							
-							
-										<label for="exp_years">Я играю в алтимат вот уже</label>
-										<select name="exp_years" id="exp_years">
-											<option value="0.5">полгода</option>
-											<option value="1">год</option>
-											<option value="2">два года</option>
-											<option value="3">три года</option>
-											<option value="4">четыре года</option>
-											<option value="5">пять лет</option>
-											<option value="6">более пяти лет</option>
-										</select>
-										
-										<br>
-										<label for="fav_position">На поле во время игры я предпочитаю</label>
-										<select  name="fav_position" id="fav_position">
-											<option value="handler">быть хэндлером</option>
-											<option value="middle">быть мидлом</option>
-											<option value="long">быть лонгом</option>
-											<option value="brovka">стоять на бровке</option>
-										</select>
-										
-										<br>
-										<label for="fav_throw">Мой любимый бросок определенно</label>
-										<select name="fav_throw" id="fav_throw">
-											<option value="forehand">форхэнд</option>
-											<option value="backhand">бэкхэнд</option>
-											<option value="blade">блейд</option>
-											<option value="hammer">хаммер</<option>
-											<option value="out">в аут</option>
-										</select>
-							
-										<br>
-										<label for="fav_style">Мой стиль игры можно описать одним словом - </label>
-										<select name="fav_style" id="fav_style">
-											<option value="unstopable">неудержимый</option>
-											<option value="slowpoke">слоупок</option>
-											<option value="weak">слабак</option>
-											<option value="dodger">хитрец</<option>
-											<option value="banana-cut">банана-кат</option>
-										</select>
-									</div>
-								</div>
-								<input type="submit" value="Присоединиться" />
-							</form>
-						</article>
 
+								
+								
+								<!-- Registration form-->
+								<div class="registration">
+									<form>
+										<div class="container">
+
+											<div class="row">
+												<div class="col-md-6">
+													<div class="col-md-12">
+														<h3>Немного о тебе</h3>
+													</div>
+													<div class="col-md-6"><input type="text" placeholder="Имя"/></div>
+													<div class="col-md-6"><input type="text" placeholder="Фамилия"/></div>
+													<div class="col-md-12"><input type="text" placeholder="ВУЗ/Колледж/Школа"/></div>
+
+													<div class="col-md-12">
+														<div class="form-group">
+														  <label for="tshirt" style="display: inline;">Размер футболки</label>
+														  <select class="form-control" id="tshirt" style="display: inline;">
+															<option value="xs">XS</option>
+															<option value="x">S</option>
+															<option value="m">M</option>
+															<option value="l">L</option>
+															<option value="xl">XL</option>
+														  </select>
+														</div>
+													</div>
+													<div class="col-md-12">
+														<div class="input-group">
+															<span class="input-group-btn">
+																<span class="btn btn-primary btn-file">
+																	Обзор...<input type="file">
+																</span>
+															</span>
+															<input type="text" class="form-control" readonly>
+														</div>
+														<span class="help-block">
+															Приложите читаемое фото студенческого билета или другого документа, подтверждающего ваш статус учащегося
+														</span>
+													</div>
+												</div>
+												
+												<div class="col-md-6">
+													<div class="col-md-12">
+														<h3>Пара формальностей</h3>
+													</div>
+													<div class="col-md-12"><input type="email" placeholder="Электронная почта"/></div>
+													<div class="col-md-12"><input type="tel" placeholder="Телефон"/></div>
+													<div class="col-md-12"><input type="password" placeholder="Пароль"/></div>
+													<div class="col-md-12"><input type="password" placeholder="Пароль еще раз"/></div>
+												</div>
+											</div>
+											
+											<div class="row">
+												<div class="col-md-12">
+														<h3>Нам необходимо знать твой опыт игры, чтобы турнир получил интересным</h3>
+													</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														  <label for="exp_years" style="display: inline;">Я играю в алтимат вот уже</label>
+														  <select class="form-control" id="exp_years" style="display: inline;">
+															<option>0-1 года</option>
+															<option>1-2 года</option>
+															<option>2-3 года</option>
+															<option>3-5 лет</option>
+															<option>более 5 лет</option>ы
+														  </select>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														  <label for="fav_position" style="display: inline;">На поле во время игры я предпочитаю</label>
+														  <select class="form-control" id="fav_position" style="display: inline;">
+															<option>быть хэндлером</option>
+															<option>быть мидлом</option>
+															<option>быть лонгом</option>
+															<option>стоять на бровке</option>
+														  </select>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														  <label for="fav_throw" style="display: inline;">Мой любимый бросок определенно</label>
+														  <select class="form-control" id="fav_throw" style="display: inline;">
+															<option>форхэнд</option>
+															<option>бэкхэнд</option>
+															<option>хаммер</option>
+															<option>блейд</option>
+															<option>скубер</option>
+														  </select>
+													</div>
+												</div>
+												<div class="col-md-12">
+													<div class="form-group">
+														  <label for="fav_throw" style="display: inline;">Мой стиль игры можно описать одним словом - </label>
+														  <select class="form-control" id="fav_throw" style="display: inline;">
+															<option>неудержимый</option>
+															<option>слоупок</option>
+															<option>хитрец</option>
+															<option>банана-кат</option>
+														  </select>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12" style="text-align:center;">
+													<button type="submit">Присоединиться</button>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+						</article>
 					</div>
 				</div>
 				
@@ -164,5 +200,29 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/menu_selector.js"></script>
+			<script>
+				$(document).on('change', '.btn-file :file', function() {
+					var input = $(this),
+					  numFiles = input.get(0).files ? input.get(0).files.length : 1,
+					  label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+					input.trigger('fileselect', [numFiles, label]);
+				});
+
+				$(document).ready( function() {
+					$('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+						
+						var input = $(this).parents('.input-group').find(':text'),
+							log = numFiles > 1 ? numFiles + ' files selected' : label;
+						
+						if( input.length ) {
+							input.val(log);
+						} else {
+							if( log ) alert(log);
+						}
+						
+					});
+				});
+			</script>
+			
 	</body>
 </html>
