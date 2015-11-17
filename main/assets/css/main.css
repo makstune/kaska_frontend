@@ -1360,12 +1360,42 @@
 	}
 
 /* Players */
+/* edited by filletofish */
+    @media screen and (max-width: 992px) {
+        #SearchBtn {
+            width: 100%;
+        }
+
+    }
+
+    .std_status_OK {
+        color: #79DC23;
+    }
+    .pay_status_OK {
+        color: #79DC23;
+    }
+    .std_status_BAD {
+        color: tomato;
+    }
+
+    .pay_status_BAD {
+        color: tomato;
+    }
+
+    /* old list */
     .StripedList ul li:nth-child(odd) {
         background-color: #cccccc;
     }
     .StripedList ul li:nth-child(even) {
         background-color:white;
     }
+    .StripedList ul li .row {
+        text-align: center;
+        height: 94px;
+    }
+	.StripedList ul li h6{
+		margin-top: 25px;
+	}
 
 
 
