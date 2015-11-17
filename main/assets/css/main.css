@@ -1,6 +1,10 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
+/* colors */
+/* green logo #79DC23
+
+*/
 
 	@font-face {
 		font-family: Resphekt;
@@ -16,6 +20,34 @@
 		font-family: Bitter;
 		src: url('../fonts/downloaded/bitter/Bitter-Bold.otf');
 		font-weight: bold;
+	}
+	
+	.vcenter {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+	
+	div#partners {
+		display: flex;
+		vertical-align: middle;
+	}
+	
+	div#partners div{
+		margin-right: 20px;
+	} 
+	#anons {
+		background-color: #79DC23;
+		margin-bottom: 50px;
+		border-bottom: #79DC23;
+	}
+	
+	article#anons h1, article#anons div {
+		text-align: center;
+	}
+	
+	article#anons h1 {
+		font-size: 3em;
 	}
 /*
 	Dopetrope by HTML5 UP
@@ -156,6 +188,9 @@
 
 	@media screen and (max-width: 736px) {
 
+		article#anons h1 {
+			font-size: 1.5em;
+		}
 		.containerold.\31 25\25 {
 			width: 100%;
 			max-width: 125%;
