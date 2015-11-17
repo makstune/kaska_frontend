@@ -1215,26 +1215,46 @@
 	#fav_throw, #fav_position, #exp_years, #tshirt {
 		width: auto;
 	}
+	
+	#stud_btn {
+		background-color: #607D8B; 
+		border-color: #607D8B;
+	}
+	.registration select {
+		border-radius: 0px;
+		border: solid 1px gainsboro;
+		-webkit-transition: box-shadow 0.3s, border 0.3s;
+		-moz-transition: box-shadow 0.3s, border 0.3s;
+		-o-transition: box-shadow 0.3s, border 0.3s;
+		transition: box-shadow 0.3s, border 0.3s;
+	}
+	.registration select:focus {
+		border-color: #8BC34A;
+		border: solid 1px #707070;
+		-webkit-box-shadow: 0 0 5px 1px #607D8B;
+		-moz-box-shadow: 0 0 5px 1px #607D8B;
+		box-shadow: 0 0 5px 1px #607D8B;
+	}
 
 	.btn-file {
-	  position: relative;
-	  overflow: hidden;
-	  border-radius: 0;
+		position: relative;
+		overflow: hidden;
+		border-radius: 0;
 	}
 	.btn-file input[type=file] {
-	  border-radius: 0;
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  min-width: 100%;
-	  min-height: 100%;
-	  font-size: 100px;
-	  text-align: right;
-	  filter: alpha(opacity=0);
-	  opacity: 0;
-	  background: red;
-	  cursor: inherit;
-	  display: block;
+		border-radius: 0;
+		position: absolute;
+		top: 0;
+		right: 0;
+		min-width: 100%;
+		min-height: 100%;
+		font-size: 100px;
+		text-align: right;
+		filter: alpha(opacity=0);
+		opacity: 0;
+		background: red;
+		cursor: inherit;
+		display: block;
 	}
 	
 	form div {
@@ -1272,21 +1292,29 @@
 	form  select:focus,
 	form  textarea:focus{
 	   border: solid 1px #707070;
-	   -webkit-box-shadow: 0 0 5px 1px #969696;
-	   -moz-box-shadow: 0 0 5px 1px #969696;
-	   box-shadow: 0 0 5px 1px #969696;
+	   -webkit-box-shadow: 0 0 5px 1px #607D8B;
+	   -moz-box-shadow: 0 0 5px 1px #607D8B;
+	   box-shadow: 0 0 5px 1px #607D8B;
 	   outline: none;
 	}
 	
-	.columnsContainer {
-		position: relative; 
-		margin: .5em; 
+	.error-input {
+		border: solid 1px #707070;
+	   -webkit-box-shadow: 0 0 5px 1px red;
+	   -moz-box-shadow: 0 0 5px 1px red;
+	   box-shadow: 0 0 5px 1px red;
+	   outline: none;
 	}
 	
-	.leftColumn, .rightColumn, .centralColumn { 
-		/* border: 1px solid  #ccc; */
-		padding: 1.25em; 
+	#start_reg {
+		border-radius: 0px;
+		border-color: rgb(121,220,35);
+		box-shadow: 0px 0px 20px rgba(121,220,35,0.3), 
+				   0px 0px 40px rgba(121,220,35,0.5),
+				   0px 0px 60px rgba(121,220,35,0.2);
 	}
+	
+
 	
 	@media screen and (min-width: 47.5em ) {
 		.leftColumn { margin-right: 19.5em; }
@@ -2017,7 +2045,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 4em 0 4em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				#footer-wrapper header {
@@ -2749,90 +2777,4 @@ ul#field.input-list li {
     float: none;
     margin-bottom: 10px;
   }
-}
-/* ============================================================
-  STYLE 1
-============================================================ */
-.style-1 input[type="text"] {
-  padding: 10px;
-  border: solid 1px gainsboro;
-  -webkit-transition: box-shadow 0.3s, border 0.3s;
-  -moz-transition: box-shadow 0.3s, border 0.3s;
-  -o-transition: box-shadow 0.3s, border 0.3s;
-  transition: box-shadow 0.3s, border 0.3s;
-}
-.style-1 input[type="text"]:focus, .style-1 input[type="text"].focus {
-  border: solid 1px #707070;
-  -webkit-box-shadow: 0 0 5px 1px #969696;
-  -moz-box-shadow: 0 0 5px 1px #969696;
-  box-shadow: 0 0 5px 1px #969696;
-}
-
-/* ============================================================
-  STYLE 2
-============================================================ */
-.style-2 input[type="text"] {
-  padding: 10px;
-  border: solid 5px #c9c9c9;
-  -webkit-transition: border 0.3s;
-  -moz-transition: border 0.3s;
-  -o-transition: border 0.3s;
-  transition: border 0.3s;
-}
-.style-2 input[type="text"]:focus, .style-2 input[type="text"].focus {
-  border: solid 5px #969696;
-}
-
-/* ============================================================
-  STYLE 3
-============================================================ */
-.style-3 input[type="text"] {
-  padding: 10px;
-  border: solid 5px #c9c9c9;
-  -webkit-box-shadow: inset 0 0 0 1px #707070;
-  -moz-box-shadow: inset 0 0 0 1px #707070;
-  box-shadow: inset 0 0 0 1px #707070;
-  -webkit-transition: box-shadow 0.3s, border 0.3s;
-  -moz-transition: box-shadow 0.3s, border 0.3s;
-  -o-transition: box-shadow 0.3s, border 0.3s;
-  transition: box-shadow 0.3s, border 0.3s;
-}
-.style-3 input[type="text"]:focus, .style-3 input[type="text"].focus {
-  border: solid 5px #969696;
-}
-
-/* ============================================================
-  STYLE 4
-============================================================ */
-.style-4 input[type="text"] {
-  padding: 10px;
-  border: none;
-  border-bottom: solid 2px #c9c9c9;
-  -webkit-transition: border 0.3s;
-  -moz-transition: border 0.3s;
-  -o-transition: border 0.3s;
-  transition: border 0.3s;
-}
-.style-4 input[type="text"]:focus, .style-4 input[type="text"].focus {
-  border-bottom: solid 2px #969696;
-}
-
-/* ============================================================
-  STYLE 5
-============================================================ */
-.style-5 input[type="text"] {
-  padding: 10px;
-  border: solid 1px #fff;
-  -webkit-box-shadow: inset 1px 1px 2px 0 #707070;
-  -moz-box-shadow: inset 1px 1px 2px 0 #707070;
-  box-shadow: inset 1px 1px 2px 0 #707070;
-  -webkit-transition: box-shadow 0.3s;
-  -moz-transition: box-shadow 0.3s;
-  -o-transition: box-shadow 0.3s;
-  transition: box-shadow 0.3s;
-}
-.style-5 input[type="text"]:focus, .style-5 input[type="text"].focus {
-  -webkit-box-shadow: inset 1px 1px 2px 0 #c9c9c9;
-  -moz-box-shadow: inset 1px 1px 2px 0 #c9c9c9;
-  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
 }
