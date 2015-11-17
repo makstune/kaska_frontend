@@ -1,113 +1,131 @@
 <!DOCTYPE HTML>
-<!--
-	Dopetrope by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Kaska 2015</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
-	<body class="homepage">
-		<div id="page-wrapper">
+    <head>
+        <title>Kaska 2015</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+         <!-- BOOTSTRAP -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div id="header">
-
-						<!-- Logo -->
-							<img src="images/kaska-logo-15-clear.png" style="width:150px;height:auto;">
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Главная</a></li>
-									<li><a href="left-sidebar.html">Медиа</a></li>
-									<li><a href="right-sidebar.html">Турнирная сетка</a></li>
-									<li><a href="no-sidebar.html">Игроки</a></li>
-									<li><a href="no-sidebar.html">Команды</a></li>
-									<li><a href="no-sidebar.html">Информация</a></li>
-								</ul>
-							</nav>
-
-						<!-- Banner -->
+        <!--[if lte IE 8]>
+        <script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="assets/css/main.css"/>
+        <!--[if lte IE 8]>
+        <link rel="stylesheet" href="assets/css/ie8.css"/><![endif]-->
 
 
-						<!-- Intro -->
-					</div>
-				</div>
+    </head>
+    <body class="no-sidebar">
+    <p hidden>index.html</p>
 
-			<!-- Main -->
-				<div id="main-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="12u">
+        <div id="page-wrapper">
 
-								<!-- Portfolio -->
-									<section>
-                                        <!--
-										<header class="major">
-											<h2>Ты новенький? Добро пожаловать на Каску!</h2>
-										</header> -->
-										<div class="row">
-											<section id="field">
-												<h2 id="field">The Glow</h2>
-												<ul id="field" class="input-list style-1 clearfix">
-												  <li id="field">
-													<input id="field" type="text" placeholder="Имя">
-												  </li>
-												  <li id=""field">
-													<input id="field" type="text" placeholder="Фамилия" class="focus">
-												  </li>
-												</ul>
-											</section>
-										</div>
-									</section>
+        <!-- Header -->
+            <div id="header-wrapper">
+                <form style="position:absolute; float:right; top:40px; right:40px; width:200px;">
+                    <input type="text" title="username" placeholder="Логин"/>
+                    <input type="password" title="username" placeholder="Пароль"/>
+                    <button type="submit" class="btn">Войти</button>
+                    <a class="forgot" href="#">Восстановить пароль</a>
+                </form>
 
-							</div>
-						</div>
+                <div id="header">
+                    <!-- Logo -->
 
-					</div>
-				</div>
+                    <img src="images/kaska-logo-15-clear.png" style="width:150px;height:auto; margin-bottom:20px; ">
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<section id="footer" class="container">
+                    <!-- Nav -->
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="left-sidebar.html">Медиа</a></li>
+                            <li><a href="right-sidebar.html">Турнирная сетка</a></li>
+                            <li><a href="no-sidebar.html">Игроки</a></li>
+                            <li><a href="no-sidebar.html">Команды</a></li>
+                            <li><a href="no-sidebar.html">Информация</a></li>
+                        </ul>
+                    </nav>
 
-						<div class="row">
+                </div>
+            </div>
+
+        <!-- Main -->
+            <div id="main-wrapper">
+                <div class="containerold">
 
 
+                    <!-- Content -->
+                    <article class="box post">
+                        <header>
+                            <h2 style="text-align: center;">Игроки</h2>
+                        </header>
 
-						</div>
-						<div class="row">
-							<div class="12u">
+                        <form>
+                            <label for="searchOpt" style="">Поиск по критерию:</label>
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <input  type="search" style="width: 100%" placeholder="Поиск"/>
+                                </div>
 
-								<!-- Copyright -->
-									<div id="copyright">
-										<ul class="links">
-											<li>&copy; Каска 2015</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-										</ul>
-									</div>
+                                <div class="col-sm-2">
+                                    </div>
+                                    <div class="col-sm-3">
+                                    <select name="Search" id="searchOpt" style="float: right; width: auto">
+                                        <option value="unstopable">Критерий 1</option>
+                                        <option value="unstopable">Критерий 2</option>
+                                    </select></div>
 
-							</div>
-						</div>
-					</section>
-				</div>
+                            </div>
+                        </form>
 
-		</div>
+                        <div class="StripedList" style="margin-top: 1%;">
+                            <ul>
+                                <li>Player 1</li>
+                                <li>Player 2</li>
+                                <li>Player 3</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+            <!-- Footer -->
+            <div id="footer-wrapper">
+                <section id="footer" class="containerold">
+                    <div class="row">
 
-	</body>
+
+                    </div>
+                    <div class="row">
+                        <div class="12u">
+
+                            <!-- Copyright -->
+                            <div id="copyright">
+                                <ul class="links">
+                                    <li>&copy; Каска 2015</li>
+                                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <!-- Scripts -->
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.dropotron.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/skel-viewport.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <!--[if lte IE 8]>
+        <script src="assets/js/ie/respond.min.js"></script><![endif]-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/menu_selector.js"></script>
+    </body>
 </html>

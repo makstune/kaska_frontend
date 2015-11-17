@@ -58,22 +58,22 @@
 
 /* Containers */
 
-	.container {
+	.containerold {
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	.container.\31 25\25 {
+	.containerold.\31 25\25 {
 		width: 100%;
 		max-width: 1200px;
 		min-width: 960px;
 	}
 
-	.container.\37 5\25 {
+	.containerold.\37 5\25 {
 		width: 720px;
 	}
 
-	.container.\35 0\25 {
+	.containerold.\35 0\25 {
 		width: 480px;
 	}
 
@@ -81,31 +81,31 @@
 		width: 240px;
 	}
 
-	.container {
+	.containerold {
 		width: 960px;
 	}
 
 	@media screen and (min-width: 737px) {
 
-		.container.\31 25\25 {
+		.containerold.\31 25\25 {
 			width: 100%;
 			max-width: 1500px;
 			min-width: 1200px;
 		}
 
-		.container.\37 5\25 {
+		.containerold.\37 5\25 {
 			width: 900px;
 		}
 
-		.container.\35 0\25 {
+		.containerold.\35 0\25 {
 			width: 600px;
 		}
 
-		.container.\32 5\25 {
+		.containerold.\32 5\25 {
 			width: 300px;
 		}
 
-		.container {
+		.containerold {
 			width: 1200px;
 		}
 
@@ -113,25 +113,25 @@
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
-		.container.\31 25\25 {
+		.containerold.\31 25\25 {
 			width: 100%;
 			max-width: 1200px;
 			min-width: 960px;
 		}
 
-		.container.\37 5\25 {
+		.containerold.\37 5\25 {
 			width: 720px;
 		}
 
-		.container.\35 0\25 {
+		.containerold.\35 0\25 {
 			width: 480px;
 		}
 
-		.container.\32 5\25 {
+		.containerold.\32 5\25 {
 			width: 240px;
 		}
 
-		.container {
+		.containerold {
 			width: 960px;
 		}
 
@@ -139,25 +139,25 @@
 
 	@media screen and (max-width: 736px) {
 
-		.container.\31 25\25 {
+		.containerold.\31 25\25 {
 			width: 100%;
 			max-width: 125%;
 			min-width: 100%;
 		}
 
-		.container.\37 5\25 {
+		.containerold.\37 5\25 {
 			width: 75%;
 		}
 
-		.container.\35 0\25 {
+		.containerold.\35 0\25 {
 			width: 50%;
 		}
 
-		.container.\32 5\25 {
+		.containerold.\32 5\25 {
 			width: 25%;
 		}
 
-		.container {
+		.containerold {
 			width: 100% !important;
 		}
 
@@ -165,128 +165,128 @@
 
 /* Grid */
 
-	.row {
+	.rowold {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
-	.row > * {
+	.rowold > * {
 		float: left;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
-	.row:after, .row:before {
+	.rowold:after, .rowold:before {
 		content: '';
 		display: block;
 		clear: both;
 		height: 0;
 	}
 
-	.row.uniform > * > :first-child {
+	.rowold.uniform > * > :first-child {
 		margin-top: 0;
 	}
 
-	.row.uniform > * > :last-child {
+	.rowold.uniform > * > :last-child {
 		margin-bottom: 0;
 	}
 
-	.row.\30 \25 > * {
+	.rowold.\30 \25 > * {
 		padding: 0 0 0 0px;
 	}
 
-	.row.\30 \25 {
+	.rowold.\30 \25 {
 		margin: 0 0 -1px 0px;
 	}
 
-	.row.uniform.\30 \25 > * {
+	.rowold.uniform.\30 \25 > * {
 		padding: 0px 0 0 0px;
 	}
 
-	.row.uniform.\30 \25 {
+	.rowold.uniform.\30 \25 {
 		margin: 0px 0 -1px 0px;
 	}
 
-	.row > * {
+	.rowold > * {
 		padding: 0 0 0 40px;
 	}
 
-	.row {
+	.rowold {
 		margin: 0 0 -1px -40px;
 	}
 
-	.row.uniform > * {
+	.rowold.uniform > * {
 		padding: 40px 0 0 40px;
 	}
 
-	.row.uniform {
+	.rowold.uniform {
 		margin: -40px 0 -1px -40px;
 	}
 
-	.row.\32 00\25 > * {
+	.rowold.\32 00\25 > * {
 		padding: 0 0 0 80px;
 	}
 
-	.row.\32 00\25 {
+	.rowold.\32 00\25 {
 		margin: 0 0 -1px -80px;
 	}
 
-	.row.uniform.\32 00\25 > * {
+	.rowold.uniform.\32 00\25 > * {
 		padding: 80px 0 0 80px;
 	}
 
-	.row.uniform.\32 00\25 {
+	.rowold.uniform.\32 00\25 {
 		margin: -80px 0 -1px -80px;
 	}
 
-	.row.\31 50\25 > * {
+	.rowold.\31 50\25 > * {
 		padding: 0 0 0 60px;
 	}
 
-	.row.\31 50\25 {
+	.rowold.\31 50\25 {
 		margin: 0 0 -1px -60px;
 	}
 
-	.row.uniform.\31 50\25 > * {
+	.rowold.uniform.\31 50\25 > * {
 		padding: 60px 0 0 60px;
 	}
 
-	.row.uniform.\31 50\25 {
+	.rowold.uniform.\31 50\25 {
 		margin: -60px 0 -1px -60px;
 	}
 
-	.row.\35 0\25 > * {
+	.rowold.\35 0\25 > * {
 		padding: 0 0 0 20px;
 	}
 
-	.row.\35 0\25 {
+	.rowold.\35 0\25 {
 		margin: 0 0 -1px -20px;
 	}
 
-	.row.uniform.\35 0\25 > * {
+	.rowold.uniform.\35 0\25 > * {
 		padding: 20px 0 0 20px;
 	}
 
-	.row.uniform.\35 0\25 {
+	.rowold.uniform.\35 0\25 {
 		margin: -20px 0 -1px -20px;
 	}
 
-	.row.\32 5\25 > * {
+	.rowold.\32 5\25 > * {
 		padding: 0 0 0 10px;
 	}
 
-	.row.\32 5\25 {
+	.rowold.\32 5\25 {
 		margin: 0 0 -1px -10px;
 	}
 
-	.row.uniform.\32 5\25 > * {
+	.rowold.uniform.\32 5\25 > * {
 		padding: 10px 0 0 10px;
 	}
 
-	.row.uniform.\32 5\25 {
+	.rowold.uniform.\32 5\25 {
 		margin: -10px 0 -1px -10px;
 	}
 
@@ -423,83 +423,83 @@
 
 	@media screen and (min-width: 737px) {
 
-		.row > * {
+		.rowold > * {
 			padding: 50px 0 0 50px;
 		}
 
-		.row {
+		.rowold {
 			margin: -50px 0 -1px -50px;
 		}
 
-		.row.uniform > * {
+		.rowold.uniform > * {
 			padding: 50px 0 0 50px;
 		}
 
-		.row.uniform {
+		.rowold.uniform {
 			margin: -50px 0 -1px -50px;
 		}
 
-		.row.\32 00\25 > * {
+		.rowold.\32 00\25 > * {
 			padding: 100px 0 0 100px;
 		}
 
-		.row.\32 00\25 {
+		.rowold.\32 00\25 {
 			margin: -100px 0 -1px -100px;
 		}
 
-		.row.uniform.\32 00\25 > * {
+		.rowold.uniform.\32 00\25 > * {
 			padding: 100px 0 0 100px;
 		}
 
-		.row.uniform.\32 00\25 {
+		.rowold.uniform.\32 00\25 {
 			margin: -100px 0 -1px -100px;
 		}
 
-		.row.\31 50\25 > * {
+		.rowold.\31 50\25 > * {
 			padding: 75px 0 0 75px;
 		}
 
-		.row.\31 50\25 {
+		.rowold.\31 50\25 {
 			margin: -75px 0 -1px -75px;
 		}
 
-		.row.uniform.\31 50\25 > * {
+		.rowold.uniform.\31 50\25 > * {
 			padding: 75px 0 0 75px;
 		}
 
-		.row.uniform.\31 50\25 {
+		.rowold.uniform.\31 50\25 {
 			margin: -75px 0 -1px -75px;
 		}
 
-		.row.\35 0\25 > * {
+		.rowold.\35 0\25 > * {
 			padding: 25px 0 0 25px;
 		}
 
-		.row.\35 0\25 {
+		.rowold.\35 0\25 {
 			margin: -25px 0 -1px -25px;
 		}
 
-		.row.uniform.\35 0\25 > * {
+		.rowold.uniform.\35 0\25 > * {
 			padding: 25px 0 0 25px;
 		}
 
-		.row.uniform.\35 0\25 {
+		.rowold.uniform.\35 0\25 {
 			margin: -25px 0 -1px -25px;
 		}
 
-		.row.\32 5\25 > * {
+		.rowold.\32 5\25 > * {
 			padding: 12.5px 0 0 12.5px;
 		}
 
-		.row.\32 5\25 {
+		.rowold.\32 5\25 {
 			margin: -12.5px 0 -1px -12.5px;
 		}
 
-		.row.uniform.\32 5\25 > * {
+		.rowold.uniform.\32 5\25 > * {
 			padding: 12.5px 0 0 12.5px;
 		}
 
-		.row.uniform.\32 5\25 {
+		.rowold.uniform.\32 5\25 {
 			margin: -12.5px 0 -1px -12.5px;
 		}
 
@@ -638,83 +638,83 @@
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
-		.row > * {
+		.rowold > * {
 			padding: 25px 0 0 25px;
 		}
 
-		.row {
+		.rowold {
 			margin: -25px 0 -1px -25px;
 		}
 
-		.row.uniform > * {
+		.rowold.uniform > * {
 			padding: 25px 0 0 25px;
 		}
 
-		.row.uniform {
+		.rowold.uniform {
 			margin: -25px 0 -1px -25px;
 		}
 
-		.row.\32 00\25 > * {
+		.rowold.\32 00\25 > * {
 			padding: 50px 0 0 50px;
 		}
 
-		.row.\32 00\25 {
+		.rowold.\32 00\25 {
 			margin: -50px 0 -1px -50px;
 		}
 
-		.row.uniform.\32 00\25 > * {
+		.rowold.uniform.\32 00\25 > * {
 			padding: 50px 0 0 50px;
 		}
 
-		.row.uniform.\32 00\25 {
+		.rowold.uniform.\32 00\25 {
 			margin: -50px 0 -1px -50px;
 		}
 
-		.row.\31 50\25 > * {
+		.rowold.\31 50\25 > * {
 			padding: 37.5px 0 0 37.5px;
 		}
 
-		.row.\31 50\25 {
+		.rowold.\31 50\25 {
 			margin: -37.5px 0 -1px -37.5px;
 		}
 
-		.row.uniform.\31 50\25 > * {
+		.rowold.uniform.\31 50\25 > * {
 			padding: 37.5px 0 0 37.5px;
 		}
 
-		.row.uniform.\31 50\25 {
+		.rowold.uniform.\31 50\25 {
 			margin: -37.5px 0 -1px -37.5px;
 		}
 
-		.row.\35 0\25 > * {
+		.rowold.\35 0\25 > * {
 			padding: 12.5px 0 0 12.5px;
 		}
 
-		.row.\35 0\25 {
+		.rowold.\35 0\25 {
 			margin: -12.5px 0 -1px -12.5px;
 		}
 
-		.row.uniform.\35 0\25 > * {
+		.rowold.uniform.\35 0\25 > * {
 			padding: 12.5px 0 0 12.5px;
 		}
 
-		.row.uniform.\35 0\25 {
+		.rowold.uniform.\35 0\25 {
 			margin: -12.5px 0 -1px -12.5px;
 		}
 
-		.row.\32 5\25 > * {
+		.rowold.\32 5\25 > * {
 			padding: 6.25px 0 0 6.25px;
 		}
 
-		.row.\32 5\25 {
+		.rowold.\32 5\25 {
 			margin: -6.25px 0 -1px -6.25px;
 		}
 
-		.row.uniform.\32 5\25 > * {
+		.rowold.uniform.\32 5\25 > * {
 			padding: 6.25px 0 0 6.25px;
 		}
 
-		.row.uniform.\32 5\25 {
+		.rowold.uniform.\32 5\25 {
 			margin: -6.25px 0 -1px -6.25px;
 		}
 
@@ -853,83 +853,83 @@
 
 	@media screen and (max-width: 736px) {
 
-		.row > * {
+		.rowold > * {
 			padding: 20px 0 0 20px;
 		}
 
-		.row {
+		.rowold {
 			margin: -20px 0 -1px -20px;
 		}
 
-		.row.uniform > * {
+		.rowold.uniform > * {
 			padding: 20px 0 0 20px;
 		}
 
-		.row.uniform {
+		.rowold.uniform {
 			margin: -20px 0 -1px -20px;
 		}
 
-		.row.\32 00\25 > * {
+		.rowold.\32 00\25 > * {
 			padding: 40px 0 0 40px;
 		}
 
-		.row.\32 00\25 {
+		.rowold.\32 00\25 {
 			margin: -40px 0 -1px -40px;
 		}
 
-		.row.uniform.\32 00\25 > * {
+		.rowold.uniform.\32 00\25 > * {
 			padding: 40px 0 0 40px;
 		}
 
-		.row.uniform.\32 00\25 {
+		.rowold.uniform.\32 00\25 {
 			margin: -40px 0 -1px -40px;
 		}
 
-		.row.\31 50\25 > * {
+		.rowold.\31 50\25 > * {
 			padding: 30px 0 0 30px;
 		}
 
-		.row.\31 50\25 {
+		.rowold.\31 50\25 {
 			margin: -30px 0 -1px -30px;
 		}
 
-		.row.uniform.\31 50\25 > * {
+		.rowold.uniform.\31 50\25 > * {
 			padding: 30px 0 0 30px;
 		}
 
-		.row.uniform.\31 50\25 {
+		.rowold.uniform.\31 50\25 {
 			margin: -30px 0 -1px -30px;
 		}
 
-		.row.\35 0\25 > * {
+		.rowold.\35 0\25 > * {
 			padding: 10px 0 0 10px;
 		}
 
-		.row.\35 0\25 {
+		.rowold.\35 0\25 {
 			margin: -10px 0 -1px -10px;
 		}
 
-		.row.uniform.\35 0\25 > * {
+		.rowold.uniform.\35 0\25 > * {
 			padding: 10px 0 0 10px;
 		}
 
-		.row.uniform.\35 0\25 {
+		.rowold.uniform.\35 0\25 {
 			margin: -10px 0 -1px -10px;
 		}
 
-		.row.\32 5\25 > * {
+		.rowold.\32 5\25 > * {
 			padding: 5px 0 0 5px;
 		}
 
-		.row.\32 5\25 {
+		.rowold.\32 5\25 {
 			margin: -5px 0 -1px -5px;
 		}
 
-		.row.uniform.\32 5\25 > * {
+		.rowold.uniform.\32 5\25 > * {
 			padding: 5px 0 0 5px;
 		}
 
-		.row.uniform.\32 5\25 {
+		.rowold.uniform.\32 5\25 {
 			margin: -5px 0 -1px -5px;
 		}
 
@@ -1179,7 +1179,7 @@
 		width: 100%;
 	}
 
-	form input[type=text]:focus, 
+	form input[type=text]:focus,
 	form input[type=email]:focus,
 	form input[type=password]:focus,
 	form select:focus,
@@ -1190,7 +1190,7 @@
 	form.registration  label {
 		display: inline;
 	}
-	
+
 	form.registration  h3 {
 		margin-bottom: 10px;
 	}
@@ -1212,8 +1212,8 @@
 		width: 100%;
 	} */
 
-	/* form.registration input[type=text]:focus, 
-	form.registration input[type=tel]:focus, 
+	/* form.registration input[type=text]:focus,
+	form.registration input[type=tel]:focus,
 	form.registration input[type=email]:focus,
 	form.registration input[type=password]:focus,
 	form.registration select:focus,
@@ -1221,11 +1221,12 @@
 		box-shadow: inset 0px 0px 7px 0px black;
 		outline: none;
 	}  */
-	
+
 	form  input[type="text"],
 	form  input[type="email"],
 	form  input[type="password"],
 	form  input[type="tel"],
+	form  input[type="search"],
 	form  select,
 	form  textarea {
 		margin-bottom: 10px;
@@ -1237,11 +1238,12 @@
 		-o-transition: box-shadow 0.3s, border 0.3s;
 		transition: box-shadow 0.3s, border 0.3s;
 }
-	
-	form   input[type="text"]:focus, 
+
+	form   input[type="text"]:focus,
 	form  input[type="email"]:focus,
 	form  input[type="password"]:focus,
 	form  input[type="tel"]:focus,
+    form input[type=search]:focus,
 	form  select:focus,
 	form  textarea:focus{
 	   border: solid 1px #707070;
@@ -1249,16 +1251,6 @@
 	   -moz-box-shadow: 0 0 5px 1px #969696;
 	   box-shadow: 0 0 5px 1px #969696;
 	   outline: none;
-	}
-	
-	.columnsContainer {
-		position: relative; 
-		margin: .5em; 
-	}
-	
-	.leftColumn, .rightColumn, .centralColumn { 
-		/* border: 1px solid  #ccc; */
-		padding: 1.25em; 
 	}
 	
 	@media screen and (min-width: 47.5em ) {
@@ -1301,6 +1293,16 @@
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+
+/* Players */
+    .StripedList ul li:nth-child(odd) {
+        background-color: #cccccc;
+    }
+    .StripedList ul li:nth-child(even) {
+        background-color:white;
+    }
+
+
 
 /* Tables */
 
