@@ -3,9 +3,8 @@
 
 /* colors */
 /* green logo #79DC23
-
 */
-
+	
 	@font-face {
 		font-family: Resphekt;
 		src: url('../fonts/Resphekt.ttf');
@@ -22,12 +21,6 @@
 		font-weight: bold;
 	}
 	
-	.vcenter {
-		display: inline-block;
-		vertical-align: middle;
-		float: none;
-	}
-	
 	div#partners {
 		display: flex;
 		vertical-align: middle;
@@ -35,7 +28,14 @@
 	
 	div#partners div{
 		margin-right: 20px;
+		margin-left: 20px;
+		text-align: center;
 	} 
+	
+	div#partners img {
+		width: 200px;
+		height: auto;
+	}
 	#anons {
 		background-color: #79DC23;
 		margin-bottom: 50px;
@@ -48,6 +48,11 @@
 	
 	article#anons h1 {
 		font-size: 3em;
+		margin-bottom: 60px;
+	}
+	
+	#search_form input, #search_form select {
+		width: 100%;
 	}
 /*
 	Dopetrope by HTML5 UP
@@ -190,7 +195,10 @@
 
 		article#anons h1 {
 			font-size: 1.5em;
+			margin_bottom: 0px;
 		}
+		
+		
 		.containerold.\31 25\25 {
 			width: 100%;
 			max-width: 125%;
@@ -1538,7 +1546,7 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background: #8BC34A;
+			background: #265F17;
 		}
 
 		input[type="button"]:active,
@@ -2180,11 +2188,9 @@
 					}
 
 					#nav > ul > li:hover > a, #nav > ul > li.active > a {
-						background: #8BC34A;
-						color: rgba(69,69,69,1);
-						text-shadow: 0px 0px 0px rgba(0,0,0,0.6),
-									0px 0px 0px rgba(0,0,0,0.2),
-									0px 0px 0px rgba(0,0,0,0.1);
+						background: #79DC23;
+						color: white;
+						
 					}
 
 					#nav > ul > li.current > a {
