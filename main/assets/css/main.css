@@ -7,18 +7,18 @@
 */
 
 	@font-face {
-		font-family: Resphekt; 
-		src: url('../fonts/Resphekt.ttf'); 
+		font-family: Resphekt;
+		src: url('../fonts/Resphekt.ttf');
 	}
 
 	@font-face {
-		font-family: Bitter; 
-		src: url('../fonts/downloaded/bitter/Bitter-Regular.otf'); 
+		font-family: Bitter;
+		src: url('../fonts/downloaded/bitter/Bitter-Regular.otf');
 	}
 
 	@font-face {
-		font-family: Bitter; 
-		src: url('../fonts/downloaded/bitter/Bitter-Bold.otf'); 
+		font-family: Bitter;
+		src: url('../fonts/downloaded/bitter/Bitter-Bold.otf');
 		font-weight: bold;
 	}
 	
@@ -478,7 +478,7 @@
 		.rowold > * {
 			padding: 50px 0 0 50px;
 		}
-		
+
 		form .rowold > * {
 			padding: 20px 0 20px 24px;
 		}
@@ -1252,7 +1252,7 @@
 	}
 	
 	#stud_btn {
-		background-color: #607D8B; 
+		background-color: #607D8B;
 		border-color: #607D8B;
 	}
 	.registration select {
@@ -1291,15 +1291,15 @@
 		cursor: inherit;
 		display: block;
 	}
-	
+
 	form div {
 		margin-bottom: 10px;
 	}
-	
+
 	form  h3 {
 		margin-bottom: 30px;
 	}
-	
+
 	form select {
 		width: auto;
 	}
@@ -1308,6 +1308,7 @@
 	form  input[type="email"],
 	form  input[type="password"],
 	form  input[type="tel"],
+	form  input[type="search"],
 	form  select,
 	form  textarea {
 		margin-bottom: 10px;
@@ -1319,11 +1320,12 @@
 		-o-transition: box-shadow 0.3s, border 0.3s;
 		transition: box-shadow 0.3s, border 0.3s;
 }
-	
-	form   input[type="text"]:focus, 
+
+	form   input[type="text"]:focus,
 	form  input[type="email"]:focus,
 	form  input[type="password"]:focus,
 	form  input[type="tel"]:focus,
+    form input[type=search]:focus,
 	form  select:focus,
 	form  textarea:focus{
 	   border: solid 1px #707070;
@@ -1340,15 +1342,15 @@
 	   box-shadow: 0 0 5px 1px red;
 	   outline: none;
 	}
-	
+
 	#start_reg {
 		border-radius: 0px;
 		border-color: rgb(121,220,35);
-		box-shadow: 0px 0px 20px rgba(121,220,35,0.3), 
+		box-shadow: 0px 0px 20px rgba(121,220,35,0.3),
 				   0px 0px 40px rgba(121,220,35,0.5),
 				   0px 0px 60px rgba(121,220,35,0.2);
 	}
-	
+
 
 	
 	@media screen and (min-width: 47.5em ) {
@@ -1391,6 +1393,46 @@
 	form ::-moz-focus-inner {
 		border: 0;
 	}
+
+/* Players */
+/* edited by filletofish */
+    @media screen and (max-width: 992px) {
+        #SearchBtn {
+            width: 100%;
+        }
+
+    }
+
+    .std_status_OK {
+        color: #79DC23;
+    }
+    .pay_status_OK {
+        color: #79DC23;
+    }
+    .std_status_BAD {
+        color: tomato;
+    }
+
+    .pay_status_BAD {
+        color: tomato;
+    }
+
+    /* old list */
+    .StripedList ul li:nth-child(odd) {
+        background-color: #cccccc;
+    }
+    .StripedList ul li:nth-child(even) {
+        background-color:white;
+    }
+    .StripedList ul li .row {
+        text-align: center;
+        height: 94px;
+    }
+	.StripedList ul li h6{
+		margin-top: 25px;
+	}
+
+
 
 /* Tables */
 
@@ -1949,7 +1991,7 @@
 		text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
 							 0px 8px 13px rgba(0,0,0,0.6),
 							 0px 18px 23px rgba(0,0,0,0.1);
-							 
+
 	}
 /* Desktop */
 
@@ -2702,7 +2744,7 @@
 					font-weight: 900;
 					font-size: 55px;
 					letter-spacing: 2px;
-					
+
 				}
 
 		/* Nav */
