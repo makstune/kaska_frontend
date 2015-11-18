@@ -21,6 +21,21 @@
 		font-weight: bold;
 	}
 	
+	#login_string {
+		
+	}
+	#player_prop select, #player_prop label {
+		display: inline; 
+	}
+	#search_form label { 
+		margin-top: 10px; 
+		margin-right: 0px; 
+	}
+	
+	#error_message {
+		color: #ff671a;
+	}
+	
 	.vcenter {
 		display: inline-block;
 		vertical-align: middle;
@@ -1259,7 +1274,7 @@
 	}
 
 /* registration form */
-	#fav_throw, #fav_position, #exp_years, #tshirt {
+	#fav_throw, #fav_position, #exp_years, #fav_style, #tshirt {
 		width: auto;
 	}
 	
@@ -1347,7 +1362,7 @@
 	   outline: none;
 	}
 	
-	.error-input {
+	.error-input input{
 		border: solid 1px #707070;
 	   -webkit-box-shadow: 0 0 5px 1px red;
 	   -moz-box-shadow: 0 0 5px 1px red;
@@ -2202,7 +2217,7 @@
 					}
 
 					#nav > ul > li.current > a {
-						background: #8BC34A;
+						background: #d52349;
 						color: #fff !important;
 						font-weight: 700;
 					}

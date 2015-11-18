@@ -27,10 +27,10 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="#">Главная</a></li>
+									<li><a href="main.html">Главная</a></li>
 									<li><a href="#">Медиа</a></li>
 									<li><a href="#">Турнирная сетка</a></li>
-									<li><a href="#">Игроки</a></li>
+									<li><a href="players.html">Игроки</a></li>
 									<li><a href="#">Команды</a></li>
 									<li><a href="#">Информация</a></li>
 								</ul>
@@ -54,7 +54,6 @@
 								<div class="registration">
 									<form>
 										<div class="container" >
-
 											<div class="row">
 												<div class="col-md-6">
 													<div class="col-md-12">
@@ -110,8 +109,8 @@
 													</div>
 												<div class="col-md-12">
 													<div class="form-group">
-														  <label for="exp_years" style="display: inline;">Я играю в алтимат вот уже</label>
-														  <select class="form-control" id="exp_years" style="display: inline;">
+														  <label for="exp_years">Я играю в алтимат вот уже</label>
+														  <select class="form-control" id="exp_years">
 															<option>0-1 года</option>
 															<option>1-2 года</option>
 															<option>2-3 года</option>
@@ -122,8 +121,8 @@
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
-														  <label for="fav_position" style="display: inline;">На поле во время игры я предпочитаю</label>
-														  <select class="form-control" id="fav_position" style="display: inline;">
+														  <label for="fav_position">На поле во время игры я предпочитаю</label>
+														  <select class="form-control" id="fav_position">
 															<option>быть хэндлером</option>
 															<option>быть мидлом</option>
 															<option>быть лонгом</option>
@@ -133,8 +132,8 @@
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
-														  <label for="fav_throw" style="display: inline;">Мой любимый бросок определенно</label>
-														  <select class="form-control" id="fav_throw" style="display: inline;">
+														  <label for="fav_throw">Мой любимый бросок определенно</label>
+														  <select class="form-control" id="fav_throw">
 															<option>форхэнд</option>
 															<option>бэкхэнд</option>
 															<option>хаммер</option>
@@ -145,8 +144,8 @@
 												</div>
 												<div class="col-md-12">
 													<div class="form-group">
-														  <label for="fav_throw" style="display: inline;">Мой стиль игры можно описать одним словом - </label>
-														  <select class="form-control" id="fav_throw" style="display: inline;">
+														  <label for="fav_style">Мой стиль игры можно описать одним словом - </label>
+														  <select class="form-control" id="fav_style">
 															<option>неудержимый</option>
 															<option>слоупок</option>
 															<option>хитрец</option>
@@ -228,18 +227,18 @@
 			</script>
 			
 			<script>
-			$(document).ready(function() {
-			 
-			 spectrum();
-			 $('.colored').animate( { color: hue }, 1000);
-			 
-			 function spectrum(){
-				var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-				$('#div').animate( { backgroundColor: hue }, 1000);
-				spectrum();
-			 }
-			 
-			});
+				$(document).ready(function() {
+				 
+				 spectrum();
+				 $('.colored').animate( { color: hue }, 1000);
+				 
+				 function spectrum(){
+					var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+					$('#div').animate( { backgroundColor: hue }, 1000);
+					spectrum();
+				 }
+				 
+				});
 			</script>
 			
 	</body>
