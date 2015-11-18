@@ -2886,3 +2886,27 @@ ul#field.input-list li {
     margin-bottom: 10px;
   }
 }
+.student {
+	color: white;
+	background-color: tomato;
+	border-radius: none;
+	text-align: center;
+}
+.nestudent {
+	color: white;
+	background-color: red;
+	border-radius: none;
+	text-align: center;
+}
+.oplatil {
+	color: white;
+	background-color: #73AD21;
+	border-radius: none;
+	text-align: center;
+}
+.neoplatil {
+	color: white;
+	background-color: red;
+	border-radius: none;
+	text-align: center;
+}
