@@ -21,8 +21,13 @@
 		font-weight: bold;
 	}
 	
+	#error_list {
+		margin-left: 16px;
+		color: red;
+	}
+	
 	#login_string {
-		
+			
 	}
 	#player_prop select, #player_prop label {
 		display: inline; 
@@ -1528,6 +1533,7 @@
 /* Box */
 
 	.box {
+		background-image: url("images/Bez_Nazvania.png");
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
 	}
