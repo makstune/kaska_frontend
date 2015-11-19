@@ -32,7 +32,7 @@
 									<li><a href="#">Турнирная сетка</a></li>
 									<li><a href="players.html">Игроки</a></li>
 									<li><a href="#">Команды</a></li>
-									<li><a href="#">Информация</a></li>
+									<li><a href="information.html">Информация</a></li>
 								</ul>
 							</nav>
 
@@ -47,17 +47,7 @@
 							<header>
 								<h2 style="text-align: center; margin-bottom: 40px;">Ты новенький? Добро пожаловать на Каску!</h2>
 							</header>
-							<div class="row" id="error_list">
-            
-									<div class="col-md-12">
-										Подтверждение пароля: Пароли не совпадают
-									</div>
-								
-									<div class="col-md-12">
-										Телефон: Используйте только "+" и цифры
-									</div>
-								
-								</div>
+							
 								<!-- Registration form-->
 								<div class="registration">
 									<form>
@@ -73,15 +63,24 @@
 													<div class="col-md-6"><input type="text" placeholder="Фамилия"/></div>
 													<div class="col-md-12"><input type="text" placeholder="ВУЗ/Колледж/Школа"/></div>
 
-													<div class="col-md-12">
+													<div class="col-md-6">
 														<div class="form-group">
 														  <label for="tshirt" style="display: inline;">Размер футболки</label>
-														  <select class="form-control" id="tshirt" style="display: inline;">
+														  <select class="form-control" id="tshirt" style="display: inline; ">
 															<option value="xs">XS</option>
 															<option value="x">S</option>
 															<option value="m">M</option>
 															<option value="l">L</option>
 															<option value="xl">XL</option>
+														  </select>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+														  <label for="sex" style="display: inline;">Пол</label>
+														  <select class="form-control" id="sex" style="display: inline; width:auto;">
+															<option value="male">мужской</option>
+															<option value="female">женский</option>
 														  </select>
 														</div>
 													</div>

@@ -27,8 +27,15 @@
 	}
 	
 	#login_string {
+		text-align: right;
+	}
+	
+	
+	#login_string a{
+		color: white;
 			
 	}
+	
 	#player_prop select, #player_prop label {
 		display: inline; 
 	}
@@ -163,7 +170,7 @@
 		width: 960px;
 	}
 
-	@media screen and (min-width: 737px) {
+	@media screen and (min-width: 768px) {
 
 		.containerold.\31 25\25 {
 			width: 100%;
@@ -189,7 +196,7 @@
 
 	}
 
-	@media screen and (min-width: 737px) and (max-width: 1200px) {
+	@media screen and (min-width: 768px) and (max-width: 1200px) {
 
 		.containerold.\31 25\25 {
 			width: 100%;
@@ -215,7 +222,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 769px) {
 
 		article#anons h1 {
 			font-size: 1.5em;
@@ -505,7 +512,7 @@
 		margin-left: 8.33333%;
 	}
 
-	@media screen and (min-width: 737px) {
+	@media screen and (min-width: 768px) {
 
 		.rowold > * {
 			padding: 50px 0 0 50px;
@@ -724,7 +731,7 @@
 
 	}
 
-	@media screen and (min-width: 737px) and (max-width: 1200px) {
+	@media screen and (min-width: 768px) and (max-width: 1200px) {
 
 		.rowold > * {
 			padding: 25px 0 0 25px;
@@ -939,7 +946,7 @@
 
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 769px) {
 
 		.rowold > * {
 			padding: 20px 0 0 20px;
@@ -1185,7 +1192,7 @@
 
 	strong, b {
 		color: #252122;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	i, em {
@@ -2031,7 +2038,7 @@
 	}
 /* Desktop */
 
-	@media screen and (min-width: 737px) {
+	@media screen and (min-width: 768px) {
 
 		/* Basic */
 
@@ -2368,7 +2375,7 @@
 
 /* Tablet */
 
-	@media screen and (min-width: 737px) and (max-width: 1200px) {
+	@media screen and (min-width: 768px) and (max-width: 1200px) {
 
 		/* Basic */
 
@@ -2468,7 +2475,7 @@
 		display: none;
 	}
 
-	@media screen and (max-width: 736px) {
+	@media screen and (max-width: 769px) {
 
 		/* Basic */
 			
@@ -2675,7 +2682,7 @@
 					line-height: 44px;
 					border-top: solid 1px rgba(255, 255, 255, 0.05);
 					padding: 0 1em 0 1em;
-					font-style: italic;
+					font-style: normal;
 				}
 
 					#navPanel .link:first-child {
@@ -2781,7 +2788,11 @@
 					font-weight: 900;
 					font-size: 55px;
 					letter-spacing: 2px;
-
+				}
+				
+				#login_string {
+					text-align: right;
+					margin-bottom: 30px;
 				}
 
 		/* Nav */
@@ -2881,7 +2892,7 @@ ul#field.input-list li {
   float: left;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
   ul#field.input-list {
     margin: 0;
   }
