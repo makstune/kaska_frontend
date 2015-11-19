@@ -20,12 +20,43 @@
 		src: url('../fonts/downloaded/bitter/Bitter-Bold.otf');
 		font-weight: bold;
 	}
+	#about_tour {
+		
+		    text-shadow: 0px 0px 3px rgba(0,0,0,0.6),
+			 0px 0px 6px rgba(0,0,0,0.2),
+			 0px 0px 10px rgba(0,0,0,0.1);
+	}
+	
+	/* background-image: url("/static/frontend/images/back-article.png"); */
+
+	
+	#about_tour a {
+		color: white;
+	}
+	
+	.avatar {
+		display: block;
+		border-radius: 50%;
+		width: 280px;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 10px;
+	}
+	
+	.justify {
+		text-align: justify;
+		text-justify: inter-word;
+	}
 	
 	#error_list {
 		margin-left: 16px;
 		color: red;
 	}
 	
+	#support {
+		padding: 0;
+	}
 	#login_string {
 		text-align: right;
 	}
@@ -1542,7 +1573,6 @@
 	.box {
 		background-image: url("images/Bez_Nazvania.png");
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
 	}
 
 		.box .image.featured {
@@ -2046,6 +2076,17 @@
 				font-size: 13pt;
 				line-height: 1.75em;
 			}
+			
+			#about_tour p {
+				font-size: 150%; 
+				text-align: justify;
+				color: white;
+				font-weight: 500;
+				margin-top: 20px;
+				padding-left: 80px;
+				padding-right: 80px;
+				
+			}
 
 			h2 {
 				font-size: 1.5em;
@@ -2078,7 +2119,7 @@
 
 			.box {
 				padding: 2.75em 1.75em 2.75em 1.75em;
-				box-shadow: 0px 0px 20px rgba(0,0,0,0.3),0px 0px 40px rgba(0,0,0,0.5),0px 0px 60px rgba(0,0,0,0.2);
+				box-shadow: 0px 0px 5px rgba(0,0,0,0.3),0px 0px 10px rgba(0,0,0,0.5),0px 0px 15px rgba(0,0,0,0.2);
 				
 			}
 
@@ -2096,6 +2137,7 @@
 				.box.post h2 {
 					font-size: 2em;
 					letter-spacing: -0.015em;
+					line-height: 40px;
 				}
 
 				.box.post header > p {
@@ -2484,6 +2526,17 @@
 				overflow-x: hidden;
 			}
 
+			#about_tour p {
+				font-size: 150%; 
+				text-align: justify;
+				color: white;
+				font-weight: 500;
+				margin-top: 20px;
+				padding-left: 10px;
+				padding-right: 10px;
+				
+			}
+			
 			body, input, textarea, select {
 				line-height: 1.75em;
 				font-size: 11pt;
@@ -2491,7 +2544,7 @@
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 1.25em;
+				font-size: 2em;
 			}
 
 		/* Section/Article */
