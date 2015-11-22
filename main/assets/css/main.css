@@ -20,6 +20,7 @@
 		src: url('../fonts/downloaded/bitter/Bitter-Bold.otf');
 		font-weight: bold;
 	}
+	
 	#about_tour {
 			
 		background-image: url("images/post_back.png");
@@ -1993,16 +1994,16 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background-image: url("images/main_back.png");
-		background-color: #575757;
+		background-image: url("images/menu_background.png");
+		background-color: #f7f7f7;
 		position: relative;
 		background-repeat: no-repeat;
-		border-bottom: solid 1px #ccc;
+	
 		background-position: center; 
 	}
 	#main-wrapper {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7;
 	}
 
 		#main-wrapper:before {
@@ -3012,27 +3013,30 @@ ul#field.input-list li {
     margin-bottom: 10px;
   }
 }
+
+.student, .nestudent, .oplatil, .neoplatil {
+	color: white;
+	border-radius: none;
+	text-align: center;
+}
+
 .student {
-	color: white;
-	background-color: tomato;
-	border-radius: none;
-	text-align: center;
+	background-color: tomato;	
 }
+
 .nestudent {
-	color: white;
 	background-color: red;
-	border-radius: none;
-	text-align: center;
 }
+
 .oplatil {
-	color: white;
 	background-color: #73AD21;
-	border-radius: none;
-	text-align: center;
+	
 }
-.neoplatil {
-	color: white;
-	background-color: red;
-	border-radius: none;
+
+.neoplatil {	
+	background-color: red;	
+}
+
+article header {
 	text-align: center;
 }
