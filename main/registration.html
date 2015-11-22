@@ -32,7 +32,7 @@
 									<li><a href="#">Турнирная сетка</a></li>
 									<li><a href="players.html">Игроки</a></li>
 									<li><a href="#">Команды</a></li>
-									<li><a href="#">Информация</a></li>
+									<li><a href="information.html">Информация</a></li>
 								</ul>
 							</nav>
 
@@ -47,17 +47,7 @@
 							<header>
 								<h2 style="text-align: center; margin-bottom: 40px;">Ты новенький? Добро пожаловать на Каску!</h2>
 							</header>
-							<div class="row" id="error_list">
-            
-									<div class="col-md-12">
-										Подтверждение пароля: Пароли не совпадают
-									</div>
-								
-									<div class="col-md-12">
-										Телефон: Используйте только "+" и цифры
-									</div>
-								
-								</div>
+							
 								<!-- Registration form-->
 								<div class="registration">
 									<form>
@@ -73,10 +63,10 @@
 													<div class="col-md-6"><input type="text" placeholder="Фамилия"/></div>
 													<div class="col-md-12"><input type="text" placeholder="ВУЗ/Колледж/Школа"/></div>
 
-													<div class="col-md-12">
-														<div class="form-group">
+													<div class="col-md-6">
+														<div class="form-group" id="player_prop">
 														  <label for="tshirt" style="display: inline;">Размер футболки</label>
-														  <select class="form-control" id="tshirt" style="display: inline;">
+														  <select class="form-control" id="tshirt" style="display: inline; ">
 															<option value="xs">XS</option>
 															<option value="x">S</option>
 															<option value="m">M</option>
@@ -85,14 +75,19 @@
 														  </select>
 														</div>
 													</div>
+													<div class="col-md-6">
+														<div class="form-group">
+														  <label for="sex" style="display: inline;">Пол</label>
+														  <select class="form-control" id="sex" style="display: inline; width:auto;">
+															<option value="male">мужской</option>
+															<option value="female">женский</option>
+														  </select>
+														</div>
+													</div>
 													<div class="col-md-12">
 														<div class="input-group">
-															<span class="input-group-btn">
-																<span class="btn btn-primary btn-file" id="stud_btn">
-																	Обзор...<input type="file">
-																</span>
-															</span>
-															<input type="text" class="form-control" readonly>
+															<input id="input-2" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="true">
+														
 														</div>
 														<span class="help-block">
 															Приложите читаемое фото студенческого билета или другого документа, подтверждающего ваш статус учащегося
@@ -111,7 +106,7 @@
 												</div>
 											</div>
 											
-											<div class="row">
+											<div class="row" id="player_prop">
 												<div class="col-md-12">
 														<h3>Нам необходимо знать твой опыт игры, чтобы турнир получил интересным</h3>
 													</div>
@@ -123,7 +118,7 @@
 															<option>1-2 года</option>
 															<option>2-3 года</option>
 															<option>3-5 лет</option>
-															<option>более 5 лет</option>ы
+															<option>более 5 лет</option>
 														  </select>
 													</div>
 												</div>
