@@ -21,10 +21,14 @@
 		font-weight: bold;
 	}
 	#about_tour {
-		
-		    text-shadow: 0px 0px 3px rgba(0,0,0,0.6),
-			 0px 0px 6px rgba(0,0,0,0.2),
-			 0px 0px 10px rgba(0,0,0,0.1);
+			
+		background-image: url("images/post_back.png");
+		text-shadow: 0px 0px 3px rgba(0,0,0,0.6),
+		 0px 0px 6px rgba(0,0,0,0.2),
+		 0px 0px 10px rgba(0,0,0,0.1);
+		 -webkit-box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
+		-moz-box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
+		box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
 	}
 	
 	/* background-image: url("/static/frontend/images/back-article.png"); */
@@ -32,6 +36,13 @@
 	
 	#about_tour a {
 		color: white;
+	}
+	
+	#about_tour img {
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto;
+		width: 300px;
 	}
 	
 	.avatar {
@@ -64,7 +75,7 @@
 	
 	#login_string a{
 		color: white;
-			
+		text-shadow: 0px 0px 6px rgba(0,0,0,0.9)
 	}
 	
 	#player_prop select, #player_prop label {
@@ -1542,6 +1553,14 @@
 	section, article {
 		margin-bottom: 2.5em;
 	}
+	
+	article {
+		padding: 30px 30px 30px 30px; 
+	}
+	
+	article#message {
+		padding: 10px 30px 10px 30px;
+	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
 			margin-bottom: 0;
@@ -1974,7 +1993,7 @@
 /* Wrappers */
 
 	#header-wrapper {
-		background-image: url("images/color_back.jpg");
+		background-image: url("images/main_back.png");
 		background-color: #575757;
 		position: relative;
 		background-repeat: no-repeat;
@@ -2077,6 +2096,15 @@
 				line-height: 1.75em;
 			}
 			
+			article div.container {
+				width: auto;
+			}
+			
+			article div.container {
+				padding: 0 40px 0 40px;
+				
+			}
+			
 			#about_tour p {
 				font-size: 150%; 
 				text-align: justify;
@@ -2087,6 +2115,10 @@
 				padding-right: 80px;
 				
 			}
+			
+			#about_tour p#footnote {
+				font-size: 125%;
+			} 
 
 			h2 {
 				font-size: 1.5em;
@@ -2118,7 +2150,7 @@
 		/* Box */
 
 			.box {
-				padding: 2.75em 1.75em 2.75em 1.75em;
+				/* padding: 2.75em 1.75em 2.75em 1.75em; */
 				box-shadow: 0px 0px 5px rgba(0,0,0,0.3),0px 0px 10px rgba(0,0,0,0.5),0px 0px 15px rgba(0,0,0,0.2);
 				
 			}
@@ -2131,7 +2163,7 @@
 
 				.box.post header {
 					padding-top: 1em;
-					margin: 0 0 2em 0;
+					/* margin: 0 0 2em 0; */
 				}
 
 				.box.post h2 {
@@ -2208,7 +2240,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 2em 0 2em 0;
+				/* padding: 2em 0 2em 0; */
 			}
 
 				#footer-wrapper header {
@@ -2432,6 +2464,7 @@
 
 		/* Section/Article */
 
+			article 
 			header.major {
 				margin: 0.75em 0 2.5em 0;
 			}
@@ -2537,6 +2570,10 @@
 				
 			}
 			
+			#about_tour p#footnote {
+				font-size: 125%;
+			} 
+			
 			body, input, textarea, select {
 				line-height: 1.75em;
 				font-size: 11pt;
@@ -2544,7 +2581,8 @@
 			}
 
 			h2, h3, h4, h5, h6 {
-				font-size: 2em;
+				font-size: 1.3em;
+				margin-top: 20px;
 			}
 
 		/* Section/Article */
@@ -2565,7 +2603,7 @@
 
 			.box {
 				padding: 25px 15px 20px 15px;
-				box-shadow: 0px 0px 20px rgba(0,0,0,0.3),0px 0px 40px rgba(0,0,0,0.5),0px 0px 60px rgba(0,0,0,0.2);
+				box-shadow: 0px 0px 5px rgba(0,0,0,0.3),0px 0px 10px rgba(0,0,0,0.5),0px 0px 15px rgba(0,0,0,0.2);
 			}
 
 				.box .image.featured {
@@ -2804,7 +2842,7 @@
 			}
 
 			#footer-wrapper {
-				padding: 2em 25px;
+				/* padding: 2em 25px; */
 				overflow: hidden;
 				-webkit-transform: translateZ(0);
 			}
@@ -2884,7 +2922,25 @@
 				#copyright .links {
 					padding: 0.75em 1.25em 0.75em 1.25em;
 				}
+		
+		#login_string {
+			text-align: center;
+		}
 
+	}
+	
+	@media screen and (max-width: 420px) {
+		.avatar, #about_tour img {
+			width: 150px;
+		}
+		
+		#about_tour p {
+			font-size: 100%;
+		}
+		
+		#about_tour p#footnote {
+			font-size: 75%;
+		}
 	}
 	
 /* ============================================================
