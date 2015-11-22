@@ -21,6 +21,10 @@
 		font-weight: bold;
 	}
 	
+	article#maps {
+		padding: 0;
+	
+	}
 	.two-col {
 		width: auto;
 		margin: 0;
