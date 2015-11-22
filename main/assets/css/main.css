@@ -21,6 +21,16 @@
 		font-weight: bold;
 	}
 	
+	.two-col {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	#login_form {
+		padding-top: 70px;
+	}
+	
 	#about_tour {
 			
 		background-image: url("images/post_back.png");
@@ -29,7 +39,7 @@
 		 0px 0px 10px rgba(0,0,0,0.1);
 		 -webkit-box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
 		-moz-box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
-		box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75);
+		box-shadow: inset 0px 0px 212px 90px rgba(0,0,0,0.75), 0px 0px 5px rgba(0,0,0,0.3),0px 0px 10px rgba(0,0,0,0.5),0px 0px 15px rgba(0,0,0,0.2);;
 	}
 	
 	/* background-image: url("/static/frontend/images/back-article.png"); */
@@ -106,23 +116,25 @@
 		text-align: center;
 	} 
 	
-	div#partners img {
-		width: 200px;
-		height: auto;
-	}
 	#anons {
 		background-color: #79DC23;
 		margin-bottom: 50px;
-		border-bottom: #79DC23;
+		/* border-bottom: #79DC23; */
 	}
 	
-	article#anons h1, article#anons div {
+	article#anons h1, article#anons div, article#counter h1, article#counter div {
 		text-align: center;
 	}
 	
-	article#anons h1 {
-		font-size: 3em;
-		margin-bottom: 60px;
+	article#anons h1, article#counter h1 {
+		font-size: 37px;
+		line-height: 110%;
+	}
+	
+	#counter p {
+		margin: 0 0 20px 0;
+		font-size: 20px;
+		font-weight: 600;
 	}
 	
 	#search_form input, #search_form select {
@@ -1301,7 +1313,7 @@
 		color: #252122;
 		font-weight: 400;
 		margin: 0 0 0.5em 0;
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 
 	form input[type=text],
@@ -2097,6 +2109,11 @@
 				line-height: 1.75em;
 			}
 			
+			div#partners img {
+				width: 200px;
+				height: auto;
+			}
+			
 			article div.container {
 				width: auto;
 			}
@@ -2554,10 +2571,19 @@
 	@media screen and (max-width: 769px) {
 
 		/* Basic */
+		
+			#about_tour {
+				background-size: 600px auto;
+			}
 			
 
 			html, body {
 				overflow-x: hidden;
+			}
+			
+			div#partners img {
+				width: 180px;
+				height: auto;
 			}
 
 			#about_tour p {
@@ -2933,6 +2959,7 @@
 	@media screen and (max-width: 420px) {
 		.avatar, #about_tour img {
 			width: 150px;
+			height: auto;
 		}
 		
 		#about_tour p {
@@ -2941,6 +2968,14 @@
 		
 		#about_tour p#footnote {
 			font-size: 75%;
+		}
+		
+		div#partners img {
+			width: 150px;
+			height: auto;
+		}
+		#about_tour {
+			background-size: 300px auto;
 		}
 	}
 	
@@ -3039,4 +3074,28 @@ ul#field.input-list li {
 
 article header {
 	text-align: center;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+.col-fixed {
+    /* custom width */
+    width:320px;
+}
+.col-min {
+    /* custom min width */
+    min-width:320px;
+}
+.col-max {
+    /* custom max width */
+    max-width:320px;
 }
