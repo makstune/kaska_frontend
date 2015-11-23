@@ -6,6 +6,11 @@
 */
 	
 	@font-face {
+		font-family: Arcade;
+		src: url('../fonts/arcade.regular.ttf');
+	}
+	
+	@font-face {
 		font-family: Resphekt;
 		src: url('../fonts/Resphekt.ttf');
 	}
@@ -24,6 +29,13 @@
 	article#maps {
 		padding: 0;
 	
+	}
+	
+	#text-logo {
+		margin: 0.25em 0 0.5em 0;
+		font-family: 'Arcade'; 
+		font-weight: 200;
+		font-size: 150px;
 	}
 	.two-col {
 		width: auto;
