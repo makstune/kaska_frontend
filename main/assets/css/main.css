@@ -2962,16 +2962,17 @@
 	
 	@media screen and (max-width: 420px) {
 		.avatar, #about_tour img {
-			width: 150px;
+			width: 220px;
 			height: auto;
 		}
 		
 		#about_tour p {
-			font-size: 100%;
+			font-size: 130%;
 		}
 		
 		#about_tour p#footnote {
-			font-size: 75%;
+			font-size: 100%;
+			line-height: 120%;
 		}
 		
 		div#partners img {
@@ -3061,6 +3062,7 @@ ul#field.input-list li {
 
 .student {
 	background-color: tomato;	
+	
 }
 
 .nestudent {
