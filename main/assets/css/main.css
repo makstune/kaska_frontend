@@ -3099,3 +3099,11 @@ article header {
     /* custom max width */
     max-width:320px;
 }
+.panel, .alert {
+	border-radius: 0;
+}
+.media-object {
+	height:200px;
+	width: 200px;
+	padding: 10px;
+}
