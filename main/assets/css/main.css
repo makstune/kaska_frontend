@@ -1246,7 +1246,7 @@
 	}
 
 	strong, b {
-		color: #252122;
+		/*color: #252122;*/
 		font-weight: 600;
 	}
 
@@ -3106,30 +3106,4 @@ article header {
 	height:200px;
 	width: 200px;
 	padding: 10px;
-}
-ul#menu {
-    padding: 0;
-    margin-bottom: 11px;
-}
-
-ul#menu li {
-    display: inline;
-    margin-right: 3px;
-}
-
-ul#menu li a {
-    background-color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #696969;
-    border-radius: 4px 4px 0 0;
-}
-
-ul#menu li a:hover {
-    color: white;
-    background-color: black;
-}
-ul#menu li a:active {
-	color: white;
-    background-color: black;
 }
