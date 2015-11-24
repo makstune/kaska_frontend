@@ -26,6 +26,10 @@
 		font-weight: bold;
 	}
 	
+	.menubtn1, .menubtn2, .menubtn3, .menubtn4, .menubtn5 {
+		border-radius: 0;
+	}
+	
 	article#maps {
 		padding: 0;
 	
