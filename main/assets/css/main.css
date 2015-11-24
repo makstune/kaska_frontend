@@ -3107,3 +3107,6 @@ article header {
 	width: 200px;
 	padding: 10px;
 }
+.menubtn1, .menubtn2, .menubtn3, .menubtn4, .menubtn5 {
+	border-radius: 0;
+}
