@@ -81,7 +81,7 @@
 								</div>
 								<div class="row">
 									<div class="col-md-12">
-										<p class="justify">
+										<p>
 										Дружище, участие в турнире платное. Взнос составляет всего <strong>600 рублей</strong> при оплате <strong>до 27 ноября</strong> и 700 рублей при оплате с 28 ноября по 6 декабря. 
 										
 										<div class="alert alert-info" role="alert">
@@ -95,7 +95,7 @@
 									</div>
 									<div class="col-md-12">
 										<div class="row">
-											<div class="col-md-6">
+											<div class="col-md-6" id="lidia">
 												<div class="col-md-12">
 												<img src="images/photos/lida-ava.png" class="avatar" />
 												</div>
@@ -171,7 +171,9 @@
 									
 									<div class="col-md-12">
 										<p>
-											Москва, Госпитальная набережная, дом 4, строение 2 
+											<strong>Спортивный комплекс МГТУ им.Баумана:</strong> Москва, Госпитальная набережная, дом 4, строение 2 <br>
+											
+											Добраться до комплекса можно пешком от станций метро <strong>Бауманская</strong> и <strong>Электрозаводская</strong>
 											<div class="alert alert-info" role="alert">
 												Станция Бауманская закрыта. До нее можно добраться от станции Курская на бесплатном автобусе. 
 											</div>
@@ -179,7 +181,7 @@
 										</p>
 									</div>
 									<div class="col-md-12">
-										<div id="ymap" style="width: 100%; height: 650px; margin-bottom: 40px; "></div>
+										<div id="ymap"></div>
 										<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=RpxhmpoEJ-VXXKRzHLMvoMfG2C-HPWbw&id=ymap"></script>
 									</div>
 								</div>
@@ -199,20 +201,23 @@
 								</div>
 								
 								<div class="row"> 
-								На нашем турнире всегда приятная атмосфера, организаторы делают для этого все возможное. Но кое-что потребуется и от тебя, как от участника. В этих правилах только здравый смысл и уважение к участникам, спортивном залу, инвентарю и любовь к алтимат!
+									<div class="col-md-12">
+										На нашем турнире всегда приятная атмосфера, организаторы делают для этого все возможное. Но кое-что потребуется и от тебя, как от участника. В этих правилах только здравый смысл и уважение к участникам, спортивном залу, инвентарю и любовь к алтимату!
+									</div>
 								</div>
 							
 
 								
 							
 								<div class="row row-centered">
-									<div col="col-md-12 col-centered">
+									<div class="col-md-12 col-centered">
 										<nav class="navbar">
 											<ul class="nav navbar-nav" style="text-align: center;">
-												<li><button type="button" id="menubtn1">Групповые игры</button></li>
-												<li><button type="button" id="menubtn2">Плей-офф</button></li>
-												<li><button type="button" id="menubtn3">Финал</button></li>
-												<li><button type="button" id="menubtn4">Правила поведения</button></li>
+												<li><button type="button" id="menubtn1">Общие правила</button></li>
+												<li><button type="button" id="menubtn2">Групповые игры</button></li>
+												<li><button type="button" id="menubtn3">Плей-офф</button></li>
+												<li><button type="button" id="menubtn4">Финал</button></li>
+												<li><button type="button" id="menubtn5">Правила поведения</button></li>
 											</ul>
 										</nav>
 									</div>
@@ -246,7 +251,7 @@
 										<div class="panel-heading"><strong>ПАГА-кап</strong></div>
 										<div class="panel-body">
 											<p>Действует правило <strong>ПАГА-кап</strong>:</p>
-											<p>По окончании матча происходит доигрывание текущего текущего очка.</p>
+											<p>По окончании игрового времени происходит доигрывание текущего очка.</p>
 											<p>Если после этого разрыв в счете составляет <u>3 и  более очков</u> - <strong>матч заканчивается</strong>.</p>
 										</div>
 									</div>
@@ -267,7 +272,7 @@
 									<div class="panel panel-default">
 										<div class="panel-heading"><strong>Тайм-ауты</strong></div>
 										<div class="panel-body">
-											<p>У каждой команды есть <strong>1 таймаут</strong> продолжительностью <strong>1 минута</strong>.</p>
+											<p>У каждой команды есть <strong>1 тайм-аут</strong> продолжительностью <strong>1 минута</strong>.</p>
 											<p>По окончании игрового времени тайм-аут брать <strong>нельзя</strong>.</p>
 										</div>
 									</div>
@@ -303,7 +308,7 @@
 										<div class="panel-heading"><strong>ПАГА-кап</strong></div>
 										<div class="panel-body">
 											<p>Действует правило <strong>ПАГА-кап</strong>:</p>
-											<p>По окончании матча происходит доигрывание текущего текущего очка.</p>
+											<p>По окончании игрового времени происходит доигрывание текущего очка.</p>
 											<p>Если после этого разрыв в счете составляет <u>3 и  более очков</u> - <strong>матч заканчивается</strong>.</p>
 										</div>
 									</div>
@@ -324,7 +329,7 @@
 									<div class="panel panel-default">
 										<div class="panel-heading"><strong>Тайм-ауты</strong></div>
 										<div class="panel-body">
-											<p>У каждой команды есть <strong>1 таймаут</strong> продолжительностью <strong>1 минута</strong>.</p>
+											<p>У каждой команды есть <strong>1 тайм-аут</strong> продолжительностью <strong>1 минута</strong>.</p>
 											<p>По окончании игрового времени тайм-аут брать <strong>нельзя</strong>.</p>
 										</div>
 									</div>
@@ -380,9 +385,9 @@
 								</div>
 								<div class="container-fluid">
 									<div class="panel panel-default">
-										<div class="panel-heading"><strong>Тайм-ауты</strong></div>
+										<div class="panel-heading"><strong>тайм-ауты</strong></div>
 										<div class="panel-body">
-											<p>У каждой команды есть <strong>1 таймаут</strong> продолжительностью <strong>1 минута</strong>.</p>
+											<p>У каждой команды есть <strong>1 тайм-аут</strong> продолжительностью <strong>1 минута</strong>.</p>
 											<p>По окончании игрового времени тайм-аут брать <strong>нельзя</strong>.</p>
 										</div>
 									</div>
@@ -404,7 +409,7 @@
 												<li>Участники соревнований должны уважительно относиться друг к другу, зрителям и коллективу спорткафедры.</li>
 												<li>Участники соревнований должны уважительно относиться к играющим в данный	момент командам и выполнять следующие требования:<br/>
 																• освобождать линию в тот момент, когда вы понимаете что загораживаете хендлеру бросок или обзор; </br>
-																• не раскидывать свои вещи на поле и вне его таким образом, что они могут помещать командам или нанести травму участнику или зрителю; </br>
+																• не раскидывать свои вещи на поле и вне его таким образом, что они могут помешать командам или нанести травму участнику или зрителю; </br>
 																• не выбегать на поле во время игры; <br>
 																• не раскидываться над полем или в непосредственной близости от него во время игры таким образом, что это может помешать играющим.</li>
 												<li>Запрещается заниматься в обуви, которая оставляет следы (цветные и белые) на покрытии и имеет шипы, в том числе резиновые.</li>
@@ -418,7 +423,7 @@
 									<div class="panel panel-danger">
 										<div class="panel-heading">Нарушение данных правил может привести к:</div>
 										<div class="panel-body">
-											<ul#disc>
+											<ul>
 												<li>Дисквалификации игрока;</li>
 												<li>Дисквалификации команды на турнире "KASKA";</li>
 												<li>Дисквалификации команды, которую представляет игрок, на
@@ -485,6 +490,9 @@
 			<script src="assets/js/reglament_selection.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/menu_selector.js"></script>
+			<script>
+				
+			</script>
 			
 	</body>
 </html>
