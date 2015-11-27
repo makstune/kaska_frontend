@@ -32,6 +32,9 @@
 		font-weight: bold;
 	}
 
+	.nav-tabs {
+		margin-bottom: 20px;
+	}
 	
 	#ymap {
 			width: 100%; 
@@ -218,6 +221,10 @@
 		list-style: none;
 	}
 
+	ul.b {
+		list-style-type: square;
+	}
+	
 	blockquote, q {
 		quotes: none;
 	}
@@ -1419,6 +1426,7 @@
 		border-radius: 0;
 	}
 	.btn-file input[type=file] {
+		
 		border-radius: 0;
 		position: absolute;
 		top: 0;
@@ -1470,11 +1478,12 @@
     form input[type=search]:focus,
 	form  select:focus,
 	form  textarea:focus{
-	   border: solid 1px #707070;
-	   -webkit-box-shadow: 0 0 5px 1px #607D8B;
-	   -moz-box-shadow: 0 0 5px 1px #607D8B;
-	   box-shadow: 0 0 5px 1px #607D8B;
-	   outline: none;
+		background-color: rgba(255, 193, 7, 0.79);
+		border: solid 1px #707070;
+		-webkit-box-shadow: 0 0 5px 1px #607D8B;
+		-moz-box-shadow: 0 0 5px 1px #607D8B;
+		box-shadow: 0 0 5px 1px #607D8B;
+		outline: none;
 	}
 	
 	.error-input input{
