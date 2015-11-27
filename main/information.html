@@ -12,7 +12,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<p hidden>information.html</p>
 	
@@ -68,7 +68,36 @@
 							</div>
 						</article>
 						
-						<article class="box post">
+						
+						<nav id="sticky" class="navbar navbar-inverse" data-spy="affix" data-offset-top="500">
+						  <div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								  <span class="icon-bar"></span>
+								  <span class="icon-bar"></span>
+								  <span class="icon-bar"></span>                        
+							  </button>
+							</div> 
+							<div>
+							  <div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav">
+								  <li><a href="#pay">Оплата участия</a></li>
+								  <li><a href="#how">Как это будет</a></li>
+								  <li><a href="#maps">Место проведения</a></li>
+								  <li><a href="#rules">Регламент</a></li>
+								</ul>
+								<ul class="nav pull-right navbar-nav">
+								  <li>
+								  <a href="#">Вверх</a>
+								  </li>
+								</ul>
+							  </div>
+							</div>
+						  </div>
+						</nav>
+					
+						
+						<article id="pay" class="box post">
 							<div class="container">
 								<div class="row">
 									<div class="col-md-12">
@@ -130,7 +159,7 @@
 							</div>
 						</article>
 						
-						<article class="box post">
+						<article id="how" class="box post">
 							<div class="container">
 								<div class="row">
 									<div class="col-md-12">
@@ -199,7 +228,8 @@
 										</header>										
 									</div>									
 								</div>
-								
+							
+							<div class="navbar-collapse collapse">
 								<ul class="nav nav-tabs">
 									<li class="active"><a data-toggle="tab" href="#home">Общие правила</a></li>
 									<li><a data-toggle="tab" href="#menu1">Групповая игра</a></li>
@@ -207,7 +237,7 @@
 									<li><a data-toggle="tab" href="#menu3">Финал</a></li>
 									<li><a data-toggle="tab" href="#menu4">Правила поведения</a></li>
 								</ul>
-								
+							</div>
 							
 								
 								<div class="tab-content">
