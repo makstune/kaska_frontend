@@ -3208,14 +3208,22 @@ article header {
     /* custom max width */
     max-width:320px;
 }
-.affix {
-      top: 0;
-      width: 100%;
-  }
 
-.affix + .container-fluid {
-      padding-top: 70px;
-  }
-nav#sticky {
-	padding-right:1%;
+
+.affix {
+    bottom:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+body {
+	position: relative;
 }
