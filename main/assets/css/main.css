@@ -3211,7 +3211,7 @@ article header {
 
 
 .affix {
-    bottom:0;
+    top:0;
     width: 100%;
     z-index: 9999 !important;
 }
@@ -3222,8 +3222,50 @@ article header {
 .affix ~ .container-fluid {
     position: relative;
     top: 50px;
-}
+}	
 
-body {
-	position: relative;
-}
+		/* Nav */
+
+			#nav2 > ul {
+				background-color:red;
+			}
+
+				#nav2 > ul > li {
+					display: inline-block;
+					font-style: normal;
+				}
+
+					#nav2 > ul > li > ul {
+						display: none;
+					}
+
+					#nav2 > ul > li > a {
+						border-radius: 0px;
+						color: white;
+						text-decoration: none;
+						font-weight: 900;
+						font-size: 120%;
+						padding: 0.6em 1.2em 0.6em 1.2em;
+						-moz-transition: background-color .25s ease-in-out;
+						-webkit-transition: background-color .25s ease-in-out;
+						-ms-transition: background-color .25s ease-in-out;
+						transition: background-color .25s ease-in-out;
+						outline: 0;
+						text-shadow: 0px 0px 3px rgba(0,0,0,0.6),
+									0px 0px 6px rgba(0,0,0,0.2),
+									0px 0px 10px rgba(0,0,0,0.1);
+					}
+
+					#nav2 > ul > li:hover > a, #nav2 > ul > li.active > a {
+						background: #ffc107;
+						color: #212121;
+						text-shadow: none;
+						
+					}
+
+					#nav2 > ul > li.current > a {
+						background: #ffc107;
+						color: #212121 !important;
+						font-weight: 700;
+						text-shadow: none;
+					}
