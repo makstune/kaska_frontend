@@ -35,6 +35,21 @@
 	div.panel-body .alert.alert-danger,div.panel-body .alert.alert-info {
 		margin-bottom: 0;
 	}
+	
+	ul.hyphen{ 
+		list-style-type: none;
+		list-style-image:none;
+		list-style-position:outside;
+		margin-left:0;
+		padding-left:1em;
+		text-indent:-1em;
+	} 
+	
+	ul.hyphen li:before { 
+		content: "— "; 
+		display: inline-block;
+	}
+	
 	.nav-tabs {
 		margin-bottom: 20px;
 	}
