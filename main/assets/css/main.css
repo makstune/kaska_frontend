@@ -1301,7 +1301,7 @@
 	}
 
 	strong, b {
-		color: #252122;
+		/* color: #252122; */
 		font-weight: 600;
 	}
 
@@ -1322,7 +1322,7 @@
 	}
 
 	blockquote {
-		border-left: solid 0.75em #dddddd;
+		/* border-left: solid 0.75em #dddddd; */
 		padding: 1em 0 1em 1.5em;
 		font-style: italic;
 	}
