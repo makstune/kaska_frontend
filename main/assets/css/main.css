@@ -32,6 +32,9 @@
 		font-weight: bold;
 	}
 
+	div.panel-body .alert.alert-danger,div.panel-body .alert.alert-info {
+		margin-bottom: 0;
+	}
 	.nav-tabs {
 		margin-bottom: 20px;
 	}
