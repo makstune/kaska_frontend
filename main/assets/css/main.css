@@ -1324,7 +1324,7 @@
 	blockquote {
 		/* border-left: solid 0.75em #dddddd; */
 		padding: 1em 0 1em 1.5em;
-		font-style: italic;
+		/* font-style: italic; */
 	}
 
 	h1, h2, h3, h4, h5, h6 {
