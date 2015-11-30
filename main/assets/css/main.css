@@ -32,17 +32,27 @@
 		font-weight: bold;
 	}
 
-	div.panel-body .alert.alert-danger,div.panel-body .alert.alert-info {
+	div.panel-body .alert.alert-danger, div.panel-body .alert.alert-info,  div.panel-body .alert.alert-warning {
 		margin-bottom: 0;
+	}
+	
+	div.panel-body .alert.alert-warning {
+		padding-left: 30px;
+	}
+	
+	div.panel-body#lpad {
+		padding-left: 40px;
 	}
 	
 	ul.hyphen{ 
 		list-style-type: none;
-		list-style-image:none;
-		list-style-position:outside;
-		margin-left:0;
-		padding-left:1em;
-		text-indent:-1em;
+		list-style-image: none;
+		list-style-position: outside;
+		margin-left: 0;
+		margin-bottom: 0;
+		padding-left: 1em;
+		text-indent: -1em;
+		
 	} 
 	
 	ul.hyphen li:before { 
@@ -1291,8 +1301,9 @@
 
 /* Basic */
 	head {
-			font-family: 'Open Sans';
+		font-family: Bitter;
 	}
+	
 	body {
 		background: #252122;
 		background-image: url("images/bg02.png");
@@ -2570,6 +2581,7 @@
 		/* Basic */
 
 			body {
+				font-size: 100%;
 				min-width: 960px;
 				font-size: 11pt;
 			}
@@ -3056,6 +3068,10 @@
 	
 	@media screen and (max-width: 420px) {
 		
+		blockquote {
+			padding-left: 5px;
+		}
+		
 		#main-wrapper {
 			padding: 2em 0px;
 			overflow: hidden;
@@ -3125,7 +3141,7 @@ input#field[type="text"] {
   display: block;
   margin: 0;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: Bitter, sans-serif;
   font-size: 18px;
   -webkit-appearance: none;
   -moz-appearance: none;
