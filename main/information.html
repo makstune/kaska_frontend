@@ -12,7 +12,7 @@
 		<! --[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><! [endif]-->
 		
 	</head>
-	<body>
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
 	
 	<p hidden>information.html</p>
 	
@@ -41,7 +41,15 @@
 									<li><a href="#">Турнирная сетка</a></li>
 									<li><a href="players.html">Игроки</a></li>
 									<li><a href="#">Команды</a></li>
-									<li><a href="information.html">Информация</a></li>
+									<li class="dropdown">
+									  <a href="#page-wrapper" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Информация <span class="caret"></span></a>
+									  <ul class="dropdown-menu">
+										<li><a href="#pay">Оплата участия</a></li>
+										<li><a href="#how">Как это будет</a></li>
+										<li><a href="#maps">Место проведения</a></li>
+										<li><a href="#rules">Регламент</a></li>
+									  </ul>
+									</li>
 								</ul>
 							</nav>
 					</div>
@@ -67,8 +75,10 @@
 								</div>
 							</div>
 						</article>
+
+					
 						
-						<article class="box post">
+						<article id="pay" class="box post">
 							<div class="container">
 								<div class="row">
 									<div class="col-md-12">
@@ -130,7 +140,7 @@
 							</div>
 						</article>
 						
-						<article class="box post">
+						<article id="how" class="box post">
 							<div class="container">
 								<div class="row">
 									<div class="col-md-12">
@@ -199,7 +209,8 @@
 										</header>										
 									</div>									
 								</div>
-								
+							
+							<div class="navbar-collapse collapse">
 								<ul class="nav nav-tabs">
 									<li class="active"><a data-toggle="tab" href="#home">1. Общие правила</a></li>
 									<li><a data-toggle="tab" href="#menu1">2. Групповая игра</a></li>
@@ -207,7 +218,7 @@
 									<li><a data-toggle="tab" href="#menu3">4. Финал</a></li>
 									<li><a data-toggle="tab" href="#menu4">5. Правила поведения</a></li>
 								</ul>
-								
+							</div>
 							
 								
 								<div class="tab-content">
@@ -222,7 +233,9 @@
 										</div>
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>1.2 Время и счет блокирующего</strong></div>
+
+												<div id="time_and_score" class="panel-heading"><strong>1.2 Время и счет блокирующего</strong></div>
+
 												<div class="panel-body">
 													
 														<blockquote>
@@ -242,7 +255,7 @@
 										
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>1.3 Ввод диска</strong></div>
+												<div id="vvod_diska" class="panel-heading"><strong>1.3 Ввод диска</strong></div>
 												<div class="panel-body">
 													<blockquote><strong>1.3.1</strong> Если игрок атакующей команды касается диска до его касания земли, после 
 													чего атакующая команда не может его поймать, это не считается потерей. В
@@ -310,7 +323,7 @@
 <!-- Group games-->					<div id="menu1" class="tab-pane fade">
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>2.1 Время</strong></div>
+												<div id="group_time" class="panel-heading"><strong>2.1 Время</strong></div>
 												<div class="panel-body">
 													<p>Продолжительность игр - <strong>18 минут</strong></p>
 													<p>Перерыв между играми - <strong>2 минут</strong></p>
@@ -322,7 +335,9 @@
 										</div>
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>2.2 Счет</strong></div>
+
+												<div id="group_score" class="panel-heading"><strong>2.2 Счет</strong></div>
+
 												<div class="panel-body">
 													<p>Победный счет: <strong>11 очков</strong></p>
 													<p>Доигрывание: <strong>+1</strong></p>
@@ -331,7 +346,9 @@
 										</div>
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>2.3 ПАГА-кап</strong></div>
+
+												<div id="group_pagacup" class="panel-heading"><strong>2.3 ПАГА-кап</strong></div>
+
 												<div class="panel-body">
 													<p>Действует правило <strong>ПАГА-кап</strong>:</p>
 													<p>По окончании игрового времени происходит доигрывание текущего очка.</p>
@@ -341,7 +358,8 @@
 										</div>
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>2.4 Атака vs Защита</strong></div>
+												<div id="group_attackdefense" class="panel-heading"><strong>2.4 Атака vs Защита</strong></div>
+
 												<div class="panel-body">
 													<p>Атакующая команда имеет <strong>45 секунд</strong> с начала розыгрыша очка для подачи сигнала о готовности к пуллу (введение диска в игру).</p>
 													<p>Защищающаяся команда имеет не более <strong>50 секунд</strong> с начала розыгрыша очка для введения диска в игру.</p>
@@ -353,7 +371,9 @@
 										</div>
 										<div class="container-fluid">
 											<div class="panel panel-default">
-												<div class="panel-heading"><strong>2.5 Тайм-ауты</strong></div>
+											
+												<div id="group_timeouts" class="panel-heading"><strong>2.5 Тайм-ауты</strong></div>
+
 												<div class="panel-body">
 													<p>У каждой команды есть <strong>1 тайм-аут</strong> продолжительностью <strong>1 минута</strong>.</p>
 													<p>По окончании игрового времени тайм-аут брать <strong>нельзя</strong>.</p>

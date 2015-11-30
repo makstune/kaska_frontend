@@ -1331,6 +1331,7 @@
 
 	strong, b {
 		/* color: #252122; */
+
 		font-weight: 600;
 	}
 
@@ -2437,9 +2438,9 @@
 					}
 
 			.dropotron {
-				border-radius: 5px;
-				background-color: #252122;
-				background-color: rgba(34, 30, 31, 0.98);
+				border-radius: 0px;
+				background-color: #ffc107;
+				/*background-color: rgba(34, 30, 31, 0.98);*/
 				padding: 1.25em 1.5em 1.25em 1.5em;
 				font-style: italic;
 				min-width: 13em;
@@ -2450,7 +2451,7 @@
 			}
 
 				.dropotron a, .dropotron span {
-					color: #aaa;
+					color: #727272;
 					text-decoration: none;
 					-moz-transition: color .25s ease-in-out;
 					-webkit-transition: color .25s ease-in-out;
@@ -2463,7 +2464,7 @@
 				}
 
 					.dropotron li:hover > a, .dropotron li:hover > span {
-						color: #fff;
+						color: #727272;
 					}
 
 				.dropotron.level-0 {
