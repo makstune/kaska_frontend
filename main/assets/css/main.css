@@ -3252,3 +3252,15 @@ article header {
     /* custom max width */
     max-width:320px;
 }
+.table > tbody > tr > td {
+	margin: 0px;
+	padding: 3px;
+	vertical-align:middle
+}
+.header_table {
+	text-align:center; 
+	background-color:#dff0d8; 
+	padding:10px; 
+	margin:10px
+	
+}
