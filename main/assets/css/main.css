@@ -1586,6 +1586,21 @@
 
     }
 
+/* Teams */
+	#team-select-table {
+		align-self: center;
+	}
+
+	#team-button {
+		white-space: normal;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		background-image: none;
+	}
+	
+
+
+
     .std_status_OK {
         color: #79DC23;
     }
