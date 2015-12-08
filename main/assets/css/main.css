@@ -1597,7 +1597,10 @@
 		box-shadow: none;
 		background-image: none;
 	}
-	
+
+	#team-button :hover {
+
+	}
 
 
 
