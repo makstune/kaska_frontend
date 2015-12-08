@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Kaska 2015</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />	
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		
+	</head>
+	<body class="no-sidebar">
+	
+	<p hidden>right-sidebar.html</p>
+	
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header">
+
+						<!-- Logo -->
+						<h1 class="ribbon">Kaska 2015</h1>
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="main.html">Главная</a></li>
+									<li><a href="galery.html">Галерея</a></li>
+									<li><a href="#">Турнирная сетка</a></li>
+									<li><a href="players.html">Игроки</a></li>
+									<li><a href="#">Команды</a></li>
+									<li><a href="information.html">Информация</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="containerold">
+					<!-- Content -->
+						<article class="box post" id="login_form">
+							
+							
+								<!-- Login form-->
+								<div class="registration">
+									<form>
+										<div class="container" >
+											<div class="row row-centered">
+												
+												<div class="col-md-6 col-centered">
+													<div class="col-md-12"><input type="email" placeholder="Электронная почта"/></div>
+													<div class="col-md-12"><input type="password" placeholder="Пароль"/></div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12" style="text-align:center;">
+													<button type="submit">Войти</button>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-md-12" style="text-align:center;">
+													<a href="#">Забыли пароль?</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#">Регистрация</a>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+						</article>
+					</div>
+				</div>
+				
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<section id="footer" class="container">
+						<div class="row">
+							
+							
+							
+
+						</div>
+						<div class="row">
+							<div class="12u">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Каска 2015</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/menu_selector.js"></script>
+			<script>
+				$(document).on('change', '.btn-file :file', function() {
+					var input = $(this),
+					  numFiles = input.get(0).files ? input.get(0).files.length : 1,
+					  label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+					input.trigger('fileselect', [numFiles, label]);
+				});
+
+				$(document).ready( function() {
+					$('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+						
+						var input = $(this).parents('.input-group').find(':text'),
+							log = numFiles > 1 ? numFiles + ' files selected' : label;
+						
+						if( input.length ) {
+							input.val(log);
+						} else {
+							if( log ) alert(log);
+						}
+						
+					});
+				});
+			</script>
+			
+			<script>
+				$(document).ready(function() {
+				 
+				 spectrum();
+				 $('.colored').animate( { color: hue }, 1000);
+				 
+				 function spectrum(){
+					var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
+					$('#div').animate( { backgroundColor: hue }, 1000);
+					spectrum();
+				 }
+				 
+				});
+			</script>
+			
+	</body>
+</html>
